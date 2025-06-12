@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TTS API测试</title>
+</head>
+<body>
+    <h1>TTS API测试</h1>
+    <button onclick="testAPI()">测试voice_types API</button>
+    <div id="result"></div>
+    
+    <script>
+        async function testAPI() {
+            try {
+                console.log('测试API调用...');
+                const response = await fetch('https://moshengai.kcriss.dev/tts/voice_types');
+                console.log('响应状态:', response.status);
+                console.log('响应头:', response.headers);
+                
+                const text = await response.text();
+                console.log('响应内容:', text.substring(0, 200));
+                
+                const data = JSON.parse(text);
+                document.getElementById('result').innerHTML = 
+                    `<h3>成功!</h3>
+                     <p>男声数量: ${data.voice_types.男声.length}</p>
+                     <p>女声数量: ${data.voice_types.女声.length}</p>`;
+            } catch (error) {
+                console.error('错误:', error);
+                document.getElementById('result').innerHTML = 
+                    `<h3>错误:</h3><p>${error.message}</p>`;
+            }
+        }
+    </script>
+</body>
+</html> 

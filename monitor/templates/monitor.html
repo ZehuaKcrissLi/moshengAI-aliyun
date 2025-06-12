@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>魔声AI服务监控面板</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #0f172a;
+            color: #e2e8f0;
+            line-height: 1.6;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #1e293b 0%, #334155 100%);
+            padding: 1rem 2rem;
+            border-bottom: 1px solid #334155;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+
+        .header h1 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: #f1f5f9;
+        }
+
+        .header .subtitle {
+            color: #94a3b8;
+            font-size: 0.875rem;
+            margin-top: 0.25rem;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .card {
+            background: #1e293b;
+            border-radius: 12px;
+            padding: 1.5rem;
+            border: 1px solid #334155;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+
+        .card-title {
+            font-size: 1.125rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: #f1f5f9;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .status-indicator {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            display: inline-block;
+        }
+
+        .status-online { background: #10b981; }
+        .status-offline { background: #ef4444; }
+        .status-warning { background: #f59e0b; }
+
+        .service-item {
+            background: #334155;
+            border-radius: 8px;
+            padding: 1rem;
+            margin-bottom: 0.75rem;
+            border-left: 4px solid #64748b;
+        }
+
+        .service-item.online { border-left-color: #10b981; }
+        .service-item.offline { border-left-color: #ef4444; }
+        .service-item.warning { border-left-color: #f59e0b; }
+
+        .service-header {
+            display: flex;
+            justify-content: between;
+            align-items: center;
+            margin-bottom: 0.5rem;
+        }
+
+        .service-name {
+            font-weight: 600;
+            color: #f1f5f9;
+        }
+
+        .service-port {
+            background: #475569;
+            color: #e2e8f0;
+            padding: 0.25rem 0.5rem;
+            border-radius: 4px;
+            font-size: 0.75rem;
+            margin-left: auto;
+        }
+
+        .service-stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+            gap: 0.5rem;
+            margin-top: 0.5rem;
+        }
+
+        .stat-item {
+            text-align: center;
+        }
+
+        .stat-value {
+            font-weight: 600;
+            color: #f1f5f9;
+            font-size: 0.875rem;
+        }
+
+        .stat-label {
+            color: #94a3b8;
+            font-size: 0.75rem;
+        }
+
+        .system-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+        }
+
+        .metric-card {
+            background: #334155;
+            border-radius: 8px;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        .metric-value {
+            font-size: 2rem;
+            font-weight: 700;
+            color: #f1f5f9;
+            margin-bottom: 0.25rem;
+        }
+
+        .metric-label {
+            color: #94a3b8;
+            font-size: 0.875rem;
+        }
+
+        .progress-bar {
+            width: 100%;
+            height: 8px;
+            background: #475569;
+            border-radius: 4px;
+            overflow: hidden;
+            margin-top: 0.5rem;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #10b981, #059669);
+            transition: width 0.3s ease;
+        }
+
+        .progress-fill.warning { background: linear-gradient(90deg, #f59e0b, #d97706); }
+        .progress-fill.danger { background: linear-gradient(90deg, #ef4444, #dc2626); }
+
+        .logs-section {
+            margin-top: 2rem;
+        }
+
+        .logs-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1rem;
+        }
+
+        .logs-controls {
+            display: flex;
+            gap: 0.5rem;
+        }
+
+        .btn {
+            background: #475569;
+            color: #e2e8f0;
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 0.875rem;
+            transition: background-color 0.2s;
+        }
+
+        .btn:hover {
+            background: #64748b;
+        }
+
+        .btn.active {
+            background: #3b82f6;
+        }
+
+        .logs-container {
+            background: #0f172a;
+            border: 1px solid #334155;
+            border-radius: 8px;
+            height: 400px;
+            overflow-y: auto;
+            padding: 1rem;
+            font-family: 'Courier New', monospace;
+            font-size: 0.75rem;
+            line-height: 1.4;
+        }
+
+        .log-line {
+            margin-bottom: 0.25rem;
+            word-wrap: break-word;
+        }
+
+        .log-line.error {
+            color: #fca5a5;
+        }
+
+        .log-line.warning {
+            color: #fcd34d;
+        }
+
+        .log-line.info {
+            color: #93c5fd;
+        }
+
+        .timestamp {
+            color: #64748b;
+            margin-right: 0.5rem;
+        }
+
+        .chart-container {
+            position: relative;
+            height: 200px;
+            margin-top: 1rem;
+        }
+
+        .connection-status {
+            position: fixed;
+            top: 1rem;
+            right: 1rem;
+            background: #1e293b;
+            border: 1px solid #334155;
+            border-radius: 8px;
+            padding: 0.75rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-size: 0.875rem;
+        }
+
+        .loading {
+            display: inline-block;
+            width: 16px;
+            height: 16px;
+            border: 2px solid #475569;
+            border-top: 2px solid #3b82f6;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .auto-refresh {
+            color: #10b981;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 1rem;
+            }
+            
+            .grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .logs-container {
+                height: 300px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🎛️ 魔声AI服务监控面板</h1>
+        <div class="subtitle">实时监控服务状态、系统资源和日志信息</div>
+    </div>
+
+    <div class="connection-status" id="connectionStatus">
+        <span class="status-indicator status-offline"></span>
+        <span>连接中...</span>
+    </div>
+
+    <div class="container">
+        <!-- 服务状态 -->
+        <div class="grid">
+            <div class="card">
+                <div class="card-title">
+                    <span>🚀</span>
+                    服务状态
+                </div>
+                <div id="servicesContainer">
+                    <div class="loading"></div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-title">
+                    <span>💻</span>
+                    系统资源
+                </div>
+                <div class="system-grid" id="systemContainer">
+                    <div class="loading"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- CPU和内存图表 -->
+        <div class="grid">
+            <div class="card">
+                <div class="card-title">
+                    <span>📊</span>
+                    CPU使用率
+                </div>
+                <div class="chart-container">
+                    <canvas id="cpuChart"></canvas>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-title">
+                    <span>🧠</span>
+                    内存使用率
+                </div>
+                <div class="chart-container">
+                    <canvas id="memoryChart"></canvas>
+                </div>
+            </div>
+        </div>
+
+        <!-- 日志查看 -->
+        <div class="logs-section">
+            <div class="card">
+                <div class="logs-header">
+                    <div class="card-title">
+                        <span>📝</span>
+                        实时日志
+                    </div>
+                    <div class="logs-controls">
+                        <button class="btn active" onclick="switchService('tts-service')">TTS服务</button>
+                        <button class="btn" onclick="switchService('backend-service')">后端服务</button>
+                        <button class="btn" onclick="switchService('frontend-service')">前端服务</button>
+                        <button class="btn" onclick="switchLogType('output')">输出日志</button>
+                        <button class="btn" onclick="switchLogType('error')">错误日志</button>
+                        <button class="btn" onclick="refreshLogs()">刷新</button>
+                    </div>
+                </div>
+                <div class="logs-container" id="logsContainer">
+                    <div class="loading"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // 全局变量
+        let socket;
+        let currentService = 'tts-service';
+        let currentLogType = 'output';
+        let cpuChart, memoryChart;
+        let cpuData = [];
+        let memoryData = [];
+        let timeLabels = [];
+
+        // 初始化
+        document.addEventListener('DOMContentLoaded', function() {
+            initializeSocket();
+            initializeCharts();
+            loadInitialData();
+        });
+
+        // 初始化WebSocket连接
+        function initializeSocket() {
+            socket = io();
+            
+            socket.on('connect', function() {
+                updateConnectionStatus(true);
+                socket.emit('subscribe_updates');
+            });
+
+            socket.on('disconnect', function() {
+                updateConnectionStatus(false);
+            });
+
+            socket.on('services_update', function(data) {
+                updateServicesDisplay(data);
+            });
+
+            socket.on('system_update', function(data) {
+                updateSystemDisplay(data);
+                updateCharts(data);
+            });
+        }
+
+        // 更新连接状态
+        function updateConnectionStatus(connected) {
+            const statusEl = document.getElementById('connectionStatus');
+            const indicator = statusEl.querySelector('.status-indicator');
+            const text = statusEl.querySelector('span:last-child');
+            
+            if (connected) {
+                indicator.className = 'status-indicator status-online';
+                text.textContent = '已连接';
+            } else {
+                indicator.className = 'status-indicator status-offline';
+                text.textContent = '连接断开';
+            }
+        }
+
+        // 初始化图表
+        function initializeCharts() {
+            const cpuCtx = document.getElementById('cpuChart').getContext('2d');
+            const memoryCtx = document.getElementById('memoryChart').getContext('2d');
+
+            const chartOptions = {
+                responsive: true,
+                maintainAspectRatio: false,
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        max: 100,
+                        grid: { color: '#334155' },
+                        ticks: { color: '#94a3b8' }
+                    },
+                    x: {
+                        grid: { color: '#334155' },
+                        ticks: { color: '#94a3b8' }
+                    }
+                },
+                plugins: {
+                    legend: { display: false }
+                }
+            };
+
+            cpuChart = new Chart(cpuCtx, {
+                type: 'line',
+                data: {
+                    labels: timeLabels,
+                    datasets: [{
+                        data: cpuData,
+                        borderColor: '#3b82f6',
+                        backgroundColor: 'rgba(59, 130, 246, 0.1)',
+                        fill: true,
+                        tension: 0.4
+                    }]
+                },
+                options: chartOptions
+            });
+
+            memoryChart = new Chart(memoryCtx, {
+                type: 'line',
+                data: {
+                    labels: timeLabels,
+                    datasets: [{
+                        data: memoryData,
+                        borderColor: '#10b981',
+                        backgroundColor: 'rgba(16, 185, 129, 0.1)',
+                        fill: true,
+                        tension: 0.4
+                    }]
+                },
+                options: chartOptions
+            });
+        }
+
+        // 更新图表数据
+        function updateCharts(systemData) {
+            const now = new Date().toLocaleTimeString();
+            
+            timeLabels.push(now);
+            cpuData.push(systemData.cpu_percent);
+            memoryData.push(systemData.memory.percent);
+
+            // 保持最近20个数据点
+            if (timeLabels.length > 20) {
+                timeLabels.shift();
+                cpuData.shift();
+                memoryData.shift();
+            }
+
+            cpuChart.update('none');
+            memoryChart.update('none');
+        }
+
+        // 加载初始数据
+        function loadInitialData() {
+            fetch('/api/services')
+                .then(response => response.json())
+                .then(data => updateServicesDisplay(data));
+
+            fetch('/api/system')
+                .then(response => response.json())
+                .then(data => updateSystemDisplay(data));
+
+            loadLogs();
+        }
+
+        // 更新服务显示
+        function updateServicesDisplay(services) {
+            const container = document.getElementById('servicesContainer');
+            container.innerHTML = '';
+
+            Object.entries(services).forEach(([serviceId, service]) => {
+                const statusClass = getServiceStatusClass(service);
+                const uptime = formatUptime(service.uptime);
+                
+                container.innerHTML += `
+                    <div class="service-item ${statusClass}">
+                        <div class="service-header">
+                            <div class="service-name">${service.name}</div>
+                            <div class="service-port">:${service.port}</div>
+                        </div>
+                        <div class="service-stats">
+                            <div class="stat-item">
+                                <div class="stat-value">${service.pm2_status}</div>
+                                <div class="stat-label">状态</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-value">${service.cpu}%</div>
+                                <div class="stat-label">CPU</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-value">${formatMemory(service.memory)}</div>
+                                <div class="stat-label">内存</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-value">${service.restarts}</div>
+                                <div class="stat-label">重启次数</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-value">${uptime}</div>
+                                <div class="stat-label">运行时间</div>
+                            </div>
+                        </div>
+                    </div>
+                `;
+            });
+        }
+
+        // 更新系统显示
+        function updateSystemDisplay(systemData) {
+            const container = document.getElementById('systemContainer');
+            
+            container.innerHTML = `
+                <div class="metric-card">
+                    <div class="metric-value">${systemData.cpu_percent.toFixed(1)}%</div>
+                    <div class="metric-label">CPU使用率</div>
+                    <div class="progress-bar">
+                        <div class="progress-fill ${getProgressClass(systemData.cpu_percent)}" 
+                             style="width: ${systemData.cpu_percent}%"></div>
+                    </div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-value">${systemData.memory.percent.toFixed(1)}%</div>
+                    <div class="metric-label">内存使用率</div>
+                    <div class="progress-bar">
+                        <div class="progress-fill ${getProgressClass(systemData.memory.percent)}" 
+                             style="width: ${systemData.memory.percent}%"></div>
+                    </div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-value">${formatBytes(systemData.memory.available)}</div>
+                    <div class="metric-label">可用内存</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-value">${Object.keys(systemData.disk_usage).length}</div>
+                    <div class="metric-label">磁盘分区</div>
+                </div>
+            `;
+        }
+
+        // 加载日志
+        function loadLogs() {
+            fetch(`/api/logs/${currentService}?type=${currentLogType}&lines=100`)
+                .then(response => response.json())
+                .then(data => {
+                    const container = document.getElementById('logsContainer');
+                    container.innerHTML = '';
+                    
+                    data.logs.forEach(line => {
+                        if (line.trim()) {
+                            const logClass = getLogClass(line);
+                            container.innerHTML += `<div class="log-line ${logClass}">${escapeHtml(line)}</div>`;
+                        }
+                    });
+                    
+                    container.scrollTop = container.scrollHeight;
+                });
+        }
+
+        // 切换服务
+        function switchService(serviceId) {
+            currentService = serviceId;
+            updateActiveButton(event.target);
+            loadLogs();
+        }
+
+        // 切换日志类型
+        function switchLogType(logType) {
+            currentLogType = logType;
+            updateActiveButton(event.target);
+            loadLogs();
+        }
+
+        // 刷新日志
+        function refreshLogs() {
+            loadLogs();
+        }
+
+        // 更新活动按钮
+        function updateActiveButton(button) {
+            button.parentElement.querySelectorAll('.btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            button.classList.add('active');
+        }
+
+        // 工具函数
+        function getServiceStatusClass(service) {
+            if (service.pm2_status === 'online' && service.health.status === 'healthy') {
+                return 'online';
+            } else if (service.pm2_status === 'online') {
+                return 'warning';
+            } else {
+                return 'offline';
+            }
+        }
+
+        function getProgressClass(percent) {
+            if (percent > 80) return 'danger';
+            if (percent > 60) return 'warning';
+            return '';
+        }
+
+        function getLogClass(line) {
+            if (line.includes('ERROR') || line.includes('error')) return 'error';
+            if (line.includes('WARN') || line.includes('warning')) return 'warning';
+            if (line.includes('INFO') || line.includes('info')) return 'info';
+            return '';
+        }
+
+        function formatMemory(bytes) {
+            if (bytes < 1024 * 1024) return Math.round(bytes / 1024) + 'KB';
+            return Math.round(bytes / (1024 * 1024)) + 'MB';
+        }
+
+        function formatBytes(bytes) {
+            const sizes = ['B', 'KB', 'MB', 'GB', 'TB'];
+            if (bytes === 0) return '0 B';
+            const i = Math.floor(Math.log(bytes) / Math.log(1024));
+            return Math.round(bytes / Math.pow(1024, i) * 100) / 100 + ' ' + sizes[i];
+        }
+
+        function formatUptime(uptime) {
+            if (!uptime) return 'N/A';
+            const seconds = Math.floor((Date.now() - uptime) / 1000);
+            const hours = Math.floor(seconds / 3600);
+            const minutes = Math.floor((seconds % 3600) / 60);
+            return `${hours}h ${minutes}m`;
+        }
+
+        function escapeHtml(text) {
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        }
+    </script>
+</body>
+</html> 

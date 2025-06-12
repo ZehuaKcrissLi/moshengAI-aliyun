@@ -1,0 +1,22 @@
+[Unit]
+Description=PM2 process manager for MoshengAI
+Documentation=https://pm2.keymetrics.io/
+After=network.target
+
+[Service]
+Type=forking
+User=YOUR_USERNAME  # 替换为您的用户名
+LimitNOFILE=infinity
+LimitNPROC=infinity
+LimitCORE=infinity
+Environment=PATH=/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin
+Environment=PM2_HOME=/home/YOUR_USERNAME/.pm2  # 替换为您的用户名
+PIDFile=/home/YOUR_USERNAME/.pm2/pm2.pid  # 替换为您的用户名
+WorkingDirectory=/mnt
+
+ExecStart=/usr/local/bin/pm2 resurrect
+ExecReload=/usr/local/bin/pm2 reload all
+ExecStop=/usr/local/bin/pm2 save && /usr/local/bin/pm2 kill
+
+[Install]
+WantedBy=multi-user.target 

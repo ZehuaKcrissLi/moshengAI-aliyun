@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>音频URL测试</title>
+</head>
+<body>
+    <h1>音频URL测试</h1>
+    <button onclick="testAudioURL()">测试音频URL</button>
+    <div id="result"></div>
+    <audio id="test-audio" controls style="display:none;"></audio>
+    
+    <script>
+        function testAudioURL() {
+            // 模拟API返回的音频URL
+            const apiUrl = '/client_output/81c551b1-50d9-48e9-85cb-0a05ff084158.mp3';
+            
+            // 应用相同的URL处理逻辑
+            let finalUrl = apiUrl;
+            if (apiUrl && !apiUrl.startsWith('http') && !apiUrl.startsWith('blob:')) {
+                if (apiUrl.startsWith('/')) {
+                    finalUrl = '.' + apiUrl;
+                } else {
+                    finalUrl = './' + apiUrl;
+                }
+            }
+            
+            console.log('原始URL:', apiUrl);
+            console.log('处理后URL:', finalUrl);
+            
+            const audio = document.getElementById('test-audio');
+            audio.style.display = 'block';
+            
+            audio.onerror = function(e) {
+                document.getElementById('result').innerHTML = 
+                    `<h3>❌ 音频加载失败</h3>
+                     <p>原始URL: ${apiUrl}</p>
+                     <p>处理后URL: ${finalUrl}</p>`;
+            };
+            
+            audio.onloadeddata = function() {
+                document.getElementById('result').innerHTML = 
+                    `<h3>✅ 音频加载成功</h3>
+                     <p>原始URL: ${apiUrl}</p>
+                     <p>处理后URL: ${finalUrl}</p>`;
+            };
+            
+            audio.src = finalUrl;
+        }
+    </script>
+</body>
+</html> 

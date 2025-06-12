@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>手机SSL兼容性测试</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            margin: 20px;
+            background: #f5f5f5;
+        }
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .test-item {
+            margin: 15px 0;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .success { background: #d4edda; border-color: #c3e6cb; }
+        .error { background: #f8d7da; border-color: #f5c6cb; }
+        .info { background: #d1ecf1; border-color: #bee5eb; }
+        button {
+            background: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            margin: 5px;
+            cursor: pointer;
+        }
+        .result {
+            margin-top: 10px;
+            font-family: monospace;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🔍 手机SSL兼容性测试</h1>
+        
+        <div class="test-item info">
+            <h3>📱 设备信息</h3>
+            <div id="deviceInfo"></div>
+        </div>
+
+        <div class="test-item">
+            <h3>🌐 基础连接测试</h3>
+            <button onclick="testBasicConnection()">测试基础连接</button>
+            <div id="basicResult" class="result"></div>
+        </div>
+
+        <div class="test-item">
+            <h3>🔒 HTTPS连接测试</h3>
+            <button onclick="testHttpsConnection()">测试HTTPS</button>
+            <div id="httpsResult" class="result"></div>
+        </div>
+
+        <div class="test-item">
+            <h3>🎵 TTS服务测试</h3>
+            <button onclick="testTtsService()">测试TTS服务</button>
+            <div id="ttsResult" class="result"></div>
+        </div>
+
+        <div class="test-item">
+            <h3>🔧 修复建议</h3>
+            <div id="suggestions">
+                <p><strong>如果测试失败，请尝试：</strong></p>
+                <ul>
+                    <li>清除浏览器缓存和数据</li>
+                    <li>检查手机系统时间是否正确</li>
+                    <li>尝试使用手机流量而非WiFi</li>
+                    <li>更新手机浏览器到最新版本</li>
+                    <li>尝试使用不同的浏览器（Chrome、Safari、Firefox）</li>
+                    <li>重启手机网络设置</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // 显示设备信息
+        function showDeviceInfo() {
+            const info = {
+                userAgent: navigator.userAgent,
+                platform: navigator.platform,
+                language: navigator.language,
+                cookieEnabled: navigator.cookieEnabled,
+                onLine: navigator.onLine,
+                screenSize: `${screen.width}x${screen.height}`,
+                viewportSize: `${window.innerWidth}x${window.innerHeight}`,
+                protocol: location.protocol,
+                host: location.host
+            };
+
+            document.getElementById('deviceInfo').innerHTML = `
+                <strong>浏览器:</strong> ${info.userAgent}<br>
+                <strong>平台:</strong> ${info.platform}<br>
+                <strong>语言:</strong> ${info.language}<br>
+                <strong>Cookie:</strong> ${info.cookieEnabled ? '启用' : '禁用'}<br>
+                <strong>网络:</strong> ${info.onLine ? '在线' : '离线'}<br>
+                <strong>屏幕:</strong> ${info.screenSize}<br>
+                <strong>视口:</strong> ${info.viewportSize}<br>
+                <strong>协议:</strong> ${info.protocol}<br>
+                <strong>主机:</strong> ${info.host}
+            `;
+        }
+
+        // 测试基础连接
+        async function testBasicConnection() {
+            const resultDiv = document.getElementById('basicResult');
+            resultDiv.innerHTML = '测试中...';
+            
+            try {
+                const startTime = Date.now();
+                const response = await fetch('/', { method: 'HEAD' });
+                const endTime = Date.now();
+                
+                resultDiv.innerHTML = `
+                    ✅ 基础连接成功<br>
+                    状态码: ${response.status}<br>
+                    响应时间: ${endTime - startTime}ms<br>
+                    协议: ${location.protocol}
+                `;
+                resultDiv.parentElement.className = 'test-item success';
+            } catch (error) {
+                resultDiv.innerHTML = `❌ 基础连接失败: ${error.message}`;
+                resultDiv.parentElement.className = 'test-item error';
+            }
+        }
+
+        // 测试HTTPS连接
+        async function testHttpsConnection() {
+            const resultDiv = document.getElementById('httpsResult');
+            resultDiv.innerHTML = '测试中...';
+            
+            try {
+                const startTime = Date.now();
+                const response = await fetch('https://moshengai.kcriss.dev/', { method: 'HEAD' });
+                const endTime = Date.now();
+                
+                resultDiv.innerHTML = `
+                    ✅ HTTPS连接成功<br>
+                    状态码: ${response.status}<br>
+                    响应时间: ${endTime - startTime}ms<br>
+                    服务器: ${response.headers.get('server') || 'Unknown'}
+                `;
+                resultDiv.parentElement.className = 'test-item success';
+            } catch (error) {
+                resultDiv.innerHTML = `❌ HTTPS连接失败: ${error.message}`;
+                resultDiv.parentElement.className = 'test-item error';
+            }
+        }
+
+        // 测试TTS服务
+        async function testTtsService() {
+            const resultDiv = document.getElementById('ttsResult');
+            resultDiv.innerHTML = '测试中...';
+            
+            try {
+                const startTime = Date.now();
+                const response = await fetch('https://moshengai.kcriss.dev/tts/', { method: 'HEAD' });
+                const endTime = Date.now();
+                
+                if (response.status === 405) {
+                    resultDiv.innerHTML = `
+                        ✅ TTS服务连接成功<br>
+                        状态码: ${response.status} (Method Not Allowed - 正常)<br>
+                        响应时间: ${endTime - startTime}ms<br>
+                        服务器: ${response.headers.get('server') || 'Unknown'}
+                    `;
+                    resultDiv.parentElement.className = 'test-item success';
+                } else {
+                    resultDiv.innerHTML = `
+                        ⚠️ TTS服务响应异常<br>
+                        状态码: ${response.status}<br>
+                        响应时间: ${endTime - startTime}ms
+                    `;
+                    resultDiv.parentElement.className = 'test-item info';
+                }
+            } catch (error) {
+                resultDiv.innerHTML = `❌ TTS服务连接失败: ${error.message}`;
+                resultDiv.parentElement.className = 'test-item error';
+            }
+        }
+
+        // 页面加载时显示设备信息
+        document.addEventListener('DOMContentLoaded', showDeviceInfo);
+    </script>
+</body>
+</html> 
