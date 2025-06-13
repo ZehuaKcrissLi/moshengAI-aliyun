@@ -22144,3 +22144,47 @@
 2025-06-12 22:44:24: INFO:     65.49.1.128:18447 - "GET /?format=json HTTP/1.1" 200 OK
 2025-06-12 23:24:33: INFO:     104.152.52.138:40799 - "GET / HTTP/1.1" 200 OK
 2025-06-12 23:38:48: INFO:     149.86.227.49:49382 - "GET / HTTP/1.1" 200 OK
+2025-06-12 23:44:42: INFO:     179.43.191.98:52966 - "GET / HTTP/1.1" 200 OK
+2025-06-13 00:12:06: Static folder not found: /mnt/moshengAI/frontend/public/static
+2025-06-13 00:12:06: Prompt voice folder not found: /mnt/moshengAI/prompt_voice
+2025-06-13 00:12:06: INFO:     127.0.0.1:53260 - "GET /health HTTP/1.1" 404 Not Found
+2025-06-13 00:12:08: INFO:     127.0.0.1:53276 - "GET /health HTTP/1.1" 404 Not Found
+2025-06-13 01:38:13: INFO:     149.86.227.49:53668 - "GET / HTTP/1.1" 200 OK
+2025-06-13 02:43:20: INFO:     59.82.21.89:47824 - "GET / HTTP/1.1" 200 OK
+2025-06-13 02:54:15: INFO:     87.236.176.222:46541 - "GET / HTTP/1.1" 200 OK
+2025-06-13 03:07:49: INFO:     114.183.228.171:62210 - "GET / HTTP/1.0" 200 OK
+2025-06-13 03:21:10: INFO:     179.43.191.98:45486 - "GET / HTTP/1.1" 200 OK
+2025-06-13 04:05:34: INFO:     59.82.21.199:55282 - "GET / HTTP/1.1" 200 OK
+2025-06-13 06:09:59: INFO:     149.86.227.49:48032 - "GET / HTTP/1.1" 200 OK
+2025-06-13 06:17:01: INFO:     45.33.80.243:4932 - "GET / HTTP/1.1" 200 OK
+2025-06-13 07:49:57: INFO:     149.86.227.49:57538 - "GET / HTTP/1.1" 200 OK
+2025-06-13 08:58:50: INFO:     149.86.227.49:40342 - "GET / HTTP/1.1" 200 OK
+2025-06-13 09:30:29: INFO:     127.0.0.1:54880 - "GET / HTTP/1.1" 200 OK
+2025-06-13 09:30:29: INFO:     127.0.0.1:54900 - "GET / HTTP/1.1" 200 OK
+2025-06-13 09:30:30: INFO:     127.0.0.1:54880 - "GET / HTTP/1.1" 200 OK
+2025-06-13 09:30:30: INFO:     127.0.0.1:54900 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+2025-06-13 09:56:43: INFO:     ::1:0 - "HEAD / HTTP/1.0" 405 Method Not Allowed
+2025-06-13 10:42:59: INFO:     205.210.31.10:60428 - "GET / HTTP/1.1" 200 OK
+2025-06-13 10:48:45: Static folder not found: /mnt/moshengAI/frontend/public/static
+2025-06-13 10:48:45: Prompt voice folder not found: /mnt/moshengAI/prompt_voice
+2025-06-13 10:51:35: Static folder not found: /mnt/moshengAI/frontend/public/static
+2025-06-13 10:51:35: Prompt voice folder not found: /mnt/moshengAI/prompt_voice
+2025-06-13 10:54:55: Static folder not found: /mnt/moshengAI/frontend/public/static
+2025-06-13 10:54:55: Prompt voice folder not found: /mnt/moshengAI/prompt_voice
+2025-06-13 10:54:55: INFO:     149.86.227.49:52868 - "GET / HTTP/1.1" 200 OK
+2025-06-13 11:04:14: Static folder not found: /mnt/moshengAI/frontend/public/static
+2025-06-13 11:04:14: Prompt voice folder not found: /mnt/moshengAI/prompt_voice
+2025-06-13 11:04:14: INFO:     198.235.24.126:58136 - "GET / HTTP/1.1" 200 OK
+2025-06-13 11:08:40: Static folder not found: /mnt/moshengAI/frontend/public/static
+2025-06-13 11:08:40: Prompt voice folder not found: /mnt/moshengAI/prompt_voice
+2025-06-13 11:11:25: Static folder not found: /mnt/moshengAI/frontend/public/static
+2025-06-13 11:11:25: Prompt voice folder not found: /mnt/moshengAI/prompt_voice
+2025-06-13 11:13:59: Static folder not found: /mnt/moshengAI/frontend/public/static
+2025-06-13 11:13:59: Prompt voice folder not found: /mnt/moshengAI/prompt_voice
+2025-06-13 11:15:26: Static folder not found: /mnt/moshengAI/frontend/public/static
+2025-06-13 11:15:26: Prompt voice folder not found: /mnt/moshengAI/prompt_voice
+2025-06-13 11:27:40: Static folder not found: /mnt/moshengAI/frontend/public/static
+2025-06-13 11:27:40: Prompt voice folder not found: /mnt/moshengAI/prompt_voice
+2025-06-13 11:36:59: Static folder not found: /mnt/moshengAI/frontend/public/static
+2025-06-13 11:36:59: Prompt voice folder not found: /mnt/moshengAI/prompt_voice
+2025-06-13 11:36:59: INFO:     8.209.222.195:60082 - "GET /.env HTTP/1.1" 404 Not Found

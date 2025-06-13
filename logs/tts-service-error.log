@@ -6249,3 +6249,1214 @@
 2025-06-11 12:24:56: INFO:     Waiting for application shutdown.
 2025-06-11 12:24:56: INFO:     Application shutdown complete.
 2025-06-11 12:24:56: INFO:     Finished server process [549860]
+2025-06-13 00:11:55: /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/diffusers/models/lora.py:393: FutureWarning: `LoRACompatibleLinear` is deprecated and will be removed in version 1.0.0. Use of `LoRACompatibleLinear` is deprecated. Please switch to PEFT backend by installing PEFT: `pip install peft`.
+2025-06-13 00:11:55:   deprecate("LoRACompatibleLinear", "1.0.0", deprecation_message)
+2025-06-13 00:11:55: 2025-06-13 00:11:55,936 INFO input frame rate=25
+2025-06-13 00:11:56: Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+2025-06-13 00:11:56: Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+2025-06-13 00:11:57: [0;93m2025-06-13 00:11:57.096974654 [W:onnxruntime:, transformer_memcpy.cc:74 ApplyImpl] 8 Memcpy nodes are added to the graph main_graph for CUDAExecutionProvider. It might have negative impact on performance (including unable to run CUDA graph). Set session_options.log_severity_level=1 to see the detail logs before this message.[m
+2025-06-13 00:11:57: [0;93m2025-06-13 00:11:57.099551715 [W:onnxruntime:, session_state.cc:1166 VerifyEachNodeIsAssignedToAnEp] Some nodes were not assigned to the preferred execution providers which may or may not have an negative impact on performance. e.g. ORT explicitly assigns shape related ops to CPU to improve perf.[m
+2025-06-13 00:11:57: [0;93m2025-06-13 00:11:57.099563054 [W:onnxruntime:, session_state.cc:1168 VerifyEachNodeIsAssignedToAnEp] Rerunning with verbose output on a non-minimal build will show node assignments.[m
+2025-06-13 00:11:57: 2025-06-13 00:11:57,235 WETEXT INFO building fst for zh_normalizer ...
+2025-06-13 00:11:57: 2025-06-13 00:11:57,235 INFO building fst for zh_normalizer ...
+2025-06-13 00:12:18: 2025-06-13 00:12:18,767 WETEXT INFO done
+2025-06-13 00:12:18: 2025-06-13 00:12:18,767 INFO done
+2025-06-13 00:12:18: 2025-06-13 00:12:18,767 WETEXT INFO fst path: /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/zh_tn_tagger.fst
+2025-06-13 00:12:18: 2025-06-13 00:12:18,767 INFO fst path: /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/zh_tn_tagger.fst
+2025-06-13 00:12:18: 2025-06-13 00:12:18,767 WETEXT INFO           /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/zh_tn_verbalizer.fst
+2025-06-13 00:12:18: 2025-06-13 00:12:18,767 INFO           /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/zh_tn_verbalizer.fst
+2025-06-13 00:12:18: 2025-06-13 00:12:18,771 WETEXT INFO found existing fst: /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/en_tn_tagger.fst
+2025-06-13 00:12:18: 2025-06-13 00:12:18,771 INFO found existing fst: /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/en_tn_tagger.fst
+2025-06-13 00:12:18: 2025-06-13 00:12:18,771 WETEXT INFO                     /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/en_tn_verbalizer.fst
+2025-06-13 00:12:18: 2025-06-13 00:12:18,771 INFO                     /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/en_tn_verbalizer.fst
+2025-06-13 00:12:18: 2025-06-13 00:12:18,771 WETEXT INFO skip building fst for en_normalizer ...
+2025-06-13 00:12:18: 2025-06-13 00:12:18,771 INFO skip building fst for en_normalizer ...
+2025-06-13 00:12:21: INFO:     Started server process [1719882]
+2025-06-13 00:12:21: INFO:     Waiting for application startup.
+2025-06-13 00:12:21: INFO:     Application startup complete.
+2025-06-13 00:12:21: ERROR:    [Errno 98] error while attempting to bind on address ('0.0.0.0', 8080): address already in use
+2025-06-13 00:12:21: INFO:     Waiting for application shutdown.
+2025-06-13 00:12:21: INFO:     Application shutdown complete.
+2025-06-13 00:12:28: /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/diffusers/models/lora.py:393: FutureWarning: `LoRACompatibleLinear` is deprecated and will be removed in version 1.0.0. Use of `LoRACompatibleLinear` is deprecated. Please switch to PEFT backend by installing PEFT: `pip install peft`.
+2025-06-13 00:12:28:   deprecate("LoRACompatibleLinear", "1.0.0", deprecation_message)
+2025-06-13 00:12:28: 2025-06-13 00:12:28,918 INFO input frame rate=25
+2025-06-13 00:12:29: Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+2025-06-13 00:12:29: Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+2025-06-13 00:12:30: [0;93m2025-06-13 00:12:30.078669672 [W:onnxruntime:, transformer_memcpy.cc:74 ApplyImpl] 8 Memcpy nodes are added to the graph main_graph for CUDAExecutionProvider. It might have negative impact on performance (including unable to run CUDA graph). Set session_options.log_severity_level=1 to see the detail logs before this message.[m
+2025-06-13 00:12:30: [0;93m2025-06-13 00:12:30.081259473 [W:onnxruntime:, session_state.cc:1166 VerifyEachNodeIsAssignedToAnEp] Some nodes were not assigned to the preferred execution providers which may or may not have an negative impact on performance. e.g. ORT explicitly assigns shape related ops to CPU to improve perf.[m
+2025-06-13 00:12:30: [0;93m2025-06-13 00:12:30.081272633 [W:onnxruntime:, session_state.cc:1168 VerifyEachNodeIsAssignedToAnEp] Rerunning with verbose output on a non-minimal build will show node assignments.[m
+2025-06-13 00:12:30: 2025-06-13 00:12:30,218 WETEXT INFO building fst for zh_normalizer ...
+2025-06-13 00:12:30: 2025-06-13 00:12:30,218 INFO building fst for zh_normalizer ...
+2025-06-13 00:12:51: 2025-06-13 00:12:51,660 WETEXT INFO done
+2025-06-13 00:12:51: 2025-06-13 00:12:51,660 INFO done
+2025-06-13 00:12:51: 2025-06-13 00:12:51,660 WETEXT INFO fst path: /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/zh_tn_tagger.fst
+2025-06-13 00:12:51: 2025-06-13 00:12:51,660 INFO fst path: /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/zh_tn_tagger.fst
+2025-06-13 00:12:51: 2025-06-13 00:12:51,660 WETEXT INFO           /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/zh_tn_verbalizer.fst
+2025-06-13 00:12:51: 2025-06-13 00:12:51,660 INFO           /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/zh_tn_verbalizer.fst
+2025-06-13 00:12:51: 2025-06-13 00:12:51,664 WETEXT INFO found existing fst: /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/en_tn_tagger.fst
+2025-06-13 00:12:51: 2025-06-13 00:12:51,664 INFO found existing fst: /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/en_tn_tagger.fst
+2025-06-13 00:12:51: 2025-06-13 00:12:51,664 WETEXT INFO                     /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/en_tn_verbalizer.fst
+2025-06-13 00:12:51: 2025-06-13 00:12:51,664 INFO                     /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/en_tn_verbalizer.fst
+2025-06-13 00:12:51: 2025-06-13 00:12:51,664 WETEXT INFO skip building fst for en_normalizer ...
+2025-06-13 00:12:51: 2025-06-13 00:12:51,664 INFO skip building fst for en_normalizer ...
+2025-06-13 00:12:54: INFO:     Started server process [1720208]
+2025-06-13 00:12:54: INFO:     Waiting for application startup.
+2025-06-13 00:12:54: INFO:     Application startup complete.
+2025-06-13 00:12:54: ERROR:    [Errno 98] error while attempting to bind on address ('0.0.0.0', 8080): address already in use
+2025-06-13 00:12:54: INFO:     Waiting for application shutdown.
+2025-06-13 00:12:54: INFO:     Application shutdown complete.
+2025-06-13 00:13:00: /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/diffusers/models/lora.py:393: FutureWarning: `LoRACompatibleLinear` is deprecated and will be removed in version 1.0.0. Use of `LoRACompatibleLinear` is deprecated. Please switch to PEFT backend by installing PEFT: `pip install peft`.
+2025-06-13 00:13:00:   deprecate("LoRACompatibleLinear", "1.0.0", deprecation_message)
+2025-06-13 00:13:01: 2025-06-13 00:13:01,784 INFO input frame rate=25
+2025-06-13 00:13:02: Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+2025-06-13 00:13:02: Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+2025-06-13 00:13:02: [0;93m2025-06-13 00:13:02.952780751 [W:onnxruntime:, transformer_memcpy.cc:74 ApplyImpl] 8 Memcpy nodes are added to the graph main_graph for CUDAExecutionProvider. It might have negative impact on performance (including unable to run CUDA graph). Set session_options.log_severity_level=1 to see the detail logs before this message.[m
+2025-06-13 00:13:02: [0;93m2025-06-13 00:13:02.955388872 [W:onnxruntime:, session_state.cc:1166 VerifyEachNodeIsAssignedToAnEp] Some nodes were not assigned to the preferred execution providers which may or may not have an negative impact on performance. e.g. ORT explicitly assigns shape related ops to CPU to improve perf.[m
+2025-06-13 00:13:02: [0;93m2025-06-13 00:13:02.955401282 [W:onnxruntime:, session_state.cc:1168 VerifyEachNodeIsAssignedToAnEp] Rerunning with verbose output on a non-minimal build will show node assignments.[m
+2025-06-13 00:13:03: 2025-06-13 00:13:03,091 WETEXT INFO building fst for zh_normalizer ...
+2025-06-13 00:13:03: 2025-06-13 00:13:03,091 INFO building fst for zh_normalizer ...
+2025-06-13 00:13:25: 2025-06-13 00:13:25,346 WETEXT INFO done
+2025-06-13 00:13:25: 2025-06-13 00:13:25,346 INFO done
+2025-06-13 00:13:25: 2025-06-13 00:13:25,346 WETEXT INFO fst path: /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/zh_tn_tagger.fst
+2025-06-13 00:13:25: 2025-06-13 00:13:25,346 INFO fst path: /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/zh_tn_tagger.fst
+2025-06-13 00:13:25: 2025-06-13 00:13:25,346 WETEXT INFO           /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/zh_tn_verbalizer.fst
+2025-06-13 00:13:25: 2025-06-13 00:13:25,346 INFO           /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/zh_tn_verbalizer.fst
+2025-06-13 00:13:25: 2025-06-13 00:13:25,350 WETEXT INFO found existing fst: /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/en_tn_tagger.fst
+2025-06-13 00:13:25: 2025-06-13 00:13:25,350 INFO found existing fst: /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/en_tn_tagger.fst
+2025-06-13 00:13:25: 2025-06-13 00:13:25,350 WETEXT INFO                     /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/en_tn_verbalizer.fst
+2025-06-13 00:13:25: 2025-06-13 00:13:25,350 INFO                     /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/en_tn_verbalizer.fst
+2025-06-13 00:13:25: 2025-06-13 00:13:25,350 WETEXT INFO skip building fst for en_normalizer ...
+2025-06-13 00:13:25: 2025-06-13 00:13:25,350 INFO skip building fst for en_normalizer ...
+2025-06-13 00:13:27: INFO:     Started server process [1720355]
+2025-06-13 00:13:27: INFO:     Waiting for application startup.
+2025-06-13 00:13:27: INFO:     Application startup complete.
+2025-06-13 00:13:27: ERROR:    [Errno 98] error while attempting to bind on address ('0.0.0.0', 8080): address already in use
+2025-06-13 00:13:27: INFO:     Waiting for application shutdown.
+2025-06-13 00:13:27: INFO:     Application shutdown complete.
+2025-06-13 00:13:34: /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/diffusers/models/lora.py:393: FutureWarning: `LoRACompatibleLinear` is deprecated and will be removed in version 1.0.0. Use of `LoRACompatibleLinear` is deprecated. Please switch to PEFT backend by installing PEFT: `pip install peft`.
+2025-06-13 00:13:34:   deprecate("LoRACompatibleLinear", "1.0.0", deprecation_message)
+2025-06-13 00:13:35: 2025-06-13 00:13:35,557 INFO input frame rate=25
+2025-06-13 00:13:36: Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+2025-06-13 00:13:36: Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+2025-06-13 00:13:36: [0;93m2025-06-13 00:13:36.715345419 [W:onnxruntime:, transformer_memcpy.cc:74 ApplyImpl] 8 Memcpy nodes are added to the graph main_graph for CUDAExecutionProvider. It might have negative impact on performance (including unable to run CUDA graph). Set session_options.log_severity_level=1 to see the detail logs before this message.[m
+2025-06-13 00:13:36: [0;93m2025-06-13 00:13:36.717922478 [W:onnxruntime:, session_state.cc:1166 VerifyEachNodeIsAssignedToAnEp] Some nodes were not assigned to the preferred execution providers which may or may not have an negative impact on performance. e.g. ORT explicitly assigns shape related ops to CPU to improve perf.[m
+2025-06-13 00:13:36: [0;93m2025-06-13 00:13:36.717932138 [W:onnxruntime:, session_state.cc:1168 VerifyEachNodeIsAssignedToAnEp] Rerunning with verbose output on a non-minimal build will show node assignments.[m
+2025-06-13 00:13:36: 2025-06-13 00:13:36,855 WETEXT INFO building fst for zh_normalizer ...
+2025-06-13 00:13:36: 2025-06-13 00:13:36,855 INFO building fst for zh_normalizer ...
+2025-06-13 00:13:58: 2025-06-13 00:13:58,197 WETEXT INFO done
+2025-06-13 00:13:58: 2025-06-13 00:13:58,197 INFO done
+2025-06-13 00:13:58: 2025-06-13 00:13:58,197 WETEXT INFO fst path: /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/zh_tn_tagger.fst
+2025-06-13 00:13:58: 2025-06-13 00:13:58,197 INFO fst path: /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/zh_tn_tagger.fst
+2025-06-13 00:13:58: 2025-06-13 00:13:58,198 WETEXT INFO           /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/zh_tn_verbalizer.fst
+2025-06-13 00:13:58: 2025-06-13 00:13:58,198 INFO           /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/zh_tn_verbalizer.fst
+2025-06-13 00:13:58: 2025-06-13 00:13:58,201 WETEXT INFO found existing fst: /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/en_tn_tagger.fst
+2025-06-13 00:13:58: 2025-06-13 00:13:58,201 INFO found existing fst: /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/en_tn_tagger.fst
+2025-06-13 00:13:58: 2025-06-13 00:13:58,201 WETEXT INFO                     /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/en_tn_verbalizer.fst
+2025-06-13 00:13:58: 2025-06-13 00:13:58,201 INFO                     /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/en_tn_verbalizer.fst
+2025-06-13 00:13:58: 2025-06-13 00:13:58,201 WETEXT INFO skip building fst for en_normalizer ...
+2025-06-13 00:13:58: 2025-06-13 00:13:58,201 INFO skip building fst for en_normalizer ...
+2025-06-13 00:14:00: INFO:     Started server process [1720525]
+2025-06-13 00:14:00: INFO:     Waiting for application startup.
+2025-06-13 00:14:00: INFO:     Application startup complete.
+2025-06-13 00:14:00: ERROR:    [Errno 98] error while attempting to bind on address ('0.0.0.0', 8080): address already in use
+2025-06-13 00:14:00: INFO:     Waiting for application shutdown.
+2025-06-13 00:14:00: INFO:     Application shutdown complete.
+2025-06-13 00:14:07: /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/diffusers/models/lora.py:393: FutureWarning: `LoRACompatibleLinear` is deprecated and will be removed in version 1.0.0. Use of `LoRACompatibleLinear` is deprecated. Please switch to PEFT backend by installing PEFT: `pip install peft`.
+2025-06-13 00:14:07:   deprecate("LoRACompatibleLinear", "1.0.0", deprecation_message)
+2025-06-13 00:14:08: 2025-06-13 00:14:08,348 INFO input frame rate=25
+2025-06-13 00:14:08: Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+2025-06-13 00:14:08: Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+2025-06-13 00:14:09: [0;93m2025-06-13 00:14:09.513239243 [W:onnxruntime:, transformer_memcpy.cc:74 ApplyImpl] 8 Memcpy nodes are added to the graph main_graph for CUDAExecutionProvider. It might have negative impact on performance (including unable to run CUDA graph). Set session_options.log_severity_level=1 to see the detail logs before this message.[m
+2025-06-13 00:14:09: [0;93m2025-06-13 00:14:09.515850308 [W:onnxruntime:, session_state.cc:1166 VerifyEachNodeIsAssignedToAnEp] Some nodes were not assigned to the preferred execution providers which may or may not have an negative impact on performance. e.g. ORT explicitly assigns shape related ops to CPU to improve perf.[m
+2025-06-13 00:14:09: [0;93m2025-06-13 00:14:09.515863112 [W:onnxruntime:, session_state.cc:1168 VerifyEachNodeIsAssignedToAnEp] Rerunning with verbose output on a non-minimal build will show node assignments.[m
+2025-06-13 00:14:09: 2025-06-13 00:14:09,655 WETEXT INFO building fst for zh_normalizer ...
+2025-06-13 00:14:09: 2025-06-13 00:14:09,655 INFO building fst for zh_normalizer ...
+2025-06-13 00:14:31: 2025-06-13 00:14:31,071 WETEXT INFO done
+2025-06-13 00:14:31: 2025-06-13 00:14:31,071 INFO done
+2025-06-13 00:14:31: 2025-06-13 00:14:31,071 WETEXT INFO fst path: /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/zh_tn_tagger.fst
+2025-06-13 00:14:31: 2025-06-13 00:14:31,071 INFO fst path: /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/zh_tn_tagger.fst
+2025-06-13 00:14:31: 2025-06-13 00:14:31,071 WETEXT INFO           /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/zh_tn_verbalizer.fst
+2025-06-13 00:14:31: 2025-06-13 00:14:31,071 INFO           /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/zh_tn_verbalizer.fst
+2025-06-13 00:14:31: 2025-06-13 00:14:31,075 WETEXT INFO found existing fst: /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/en_tn_tagger.fst
+2025-06-13 00:14:31: 2025-06-13 00:14:31,075 INFO found existing fst: /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/en_tn_tagger.fst
+2025-06-13 00:14:31: 2025-06-13 00:14:31,075 WETEXT INFO                     /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/en_tn_verbalizer.fst
+2025-06-13 00:14:31: 2025-06-13 00:14:31,075 INFO                     /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/en_tn_verbalizer.fst
+2025-06-13 00:14:31: 2025-06-13 00:14:31,075 WETEXT INFO skip building fst for en_normalizer ...
+2025-06-13 00:14:31: 2025-06-13 00:14:31,075 INFO skip building fst for en_normalizer ...
+2025-06-13 00:14:33: INFO:     Started server process [1720644]
+2025-06-13 00:14:33: INFO:     Waiting for application startup.
+2025-06-13 00:14:33: INFO:     Application startup complete.
+2025-06-13 00:14:33: ERROR:    [Errno 98] error while attempting to bind on address ('0.0.0.0', 8080): address already in use
+2025-06-13 00:14:33: INFO:     Waiting for application shutdown.
+2025-06-13 00:14:33: INFO:     Application shutdown complete.
+2025-06-13 00:14:40: /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/diffusers/models/lora.py:393: FutureWarning: `LoRACompatibleLinear` is deprecated and will be removed in version 1.0.0. Use of `LoRACompatibleLinear` is deprecated. Please switch to PEFT backend by installing PEFT: `pip install peft`.
+2025-06-13 00:14:40:   deprecate("LoRACompatibleLinear", "1.0.0", deprecation_message)
+2025-06-13 00:14:41: 2025-06-13 00:14:41,219 INFO input frame rate=25
+2025-06-13 00:14:41: Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+2025-06-13 00:14:41: Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+2025-06-13 00:14:42: [0;93m2025-06-13 00:14:42.379046927 [W:onnxruntime:, transformer_memcpy.cc:74 ApplyImpl] 8 Memcpy nodes are added to the graph main_graph for CUDAExecutionProvider. It might have negative impact on performance (including unable to run CUDA graph). Set session_options.log_severity_level=1 to see the detail logs before this message.[m
+2025-06-13 00:14:42: [0;93m2025-06-13 00:14:42.381648683 [W:onnxruntime:, session_state.cc:1166 VerifyEachNodeIsAssignedToAnEp] Some nodes were not assigned to the preferred execution providers which may or may not have an negative impact on performance. e.g. ORT explicitly assigns shape related ops to CPU to improve perf.[m
+2025-06-13 00:14:42: [0;93m2025-06-13 00:14:42.381660060 [W:onnxruntime:, session_state.cc:1168 VerifyEachNodeIsAssignedToAnEp] Rerunning with verbose output on a non-minimal build will show node assignments.[m
+2025-06-13 00:14:42: 2025-06-13 00:14:42,520 WETEXT INFO building fst for zh_normalizer ...
+2025-06-13 00:14:42: 2025-06-13 00:14:42,520 INFO building fst for zh_normalizer ...
+2025-06-13 00:15:03: 2025-06-13 00:15:03,938 WETEXT INFO done
+2025-06-13 00:15:03: 2025-06-13 00:15:03,938 INFO done
+2025-06-13 00:15:03: 2025-06-13 00:15:03,938 WETEXT INFO fst path: /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/zh_tn_tagger.fst
+2025-06-13 00:15:03: 2025-06-13 00:15:03,938 INFO fst path: /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/zh_tn_tagger.fst
+2025-06-13 00:15:03: 2025-06-13 00:15:03,938 WETEXT INFO           /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/zh_tn_verbalizer.fst
+2025-06-13 00:15:03: 2025-06-13 00:15:03,938 INFO           /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/zh_tn_verbalizer.fst
+2025-06-13 00:15:03: 2025-06-13 00:15:03,942 WETEXT INFO found existing fst: /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/en_tn_tagger.fst
+2025-06-13 00:15:03: 2025-06-13 00:15:03,942 INFO found existing fst: /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/en_tn_tagger.fst
+2025-06-13 00:15:03: 2025-06-13 00:15:03,942 WETEXT INFO                     /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/en_tn_verbalizer.fst
+2025-06-13 00:15:03: 2025-06-13 00:15:03,942 INFO                     /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/en_tn_verbalizer.fst
+2025-06-13 00:15:03: 2025-06-13 00:15:03,942 WETEXT INFO skip building fst for en_normalizer ...
+2025-06-13 00:15:03: 2025-06-13 00:15:03,942 INFO skip building fst for en_normalizer ...
+2025-06-13 00:15:06: INFO:     Started server process [1720804]
+2025-06-13 00:15:06: INFO:     Waiting for application startup.
+2025-06-13 00:15:06: INFO:     Application startup complete.
+2025-06-13 00:15:06: ERROR:    [Errno 98] error while attempting to bind on address ('0.0.0.0', 8080): address already in use
+2025-06-13 00:15:06: INFO:     Waiting for application shutdown.
+2025-06-13 00:15:06: INFO:     Application shutdown complete.
+2025-06-13 00:15:13: /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/diffusers/models/lora.py:393: FutureWarning: `LoRACompatibleLinear` is deprecated and will be removed in version 1.0.0. Use of `LoRACompatibleLinear` is deprecated. Please switch to PEFT backend by installing PEFT: `pip install peft`.
+2025-06-13 00:15:13:   deprecate("LoRACompatibleLinear", "1.0.0", deprecation_message)
+2025-06-13 00:15:14: 2025-06-13 00:15:14,136 INFO input frame rate=25
+2025-06-13 00:15:14: Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+2025-06-13 00:15:14: Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+2025-06-13 00:15:15: [0;93m2025-06-13 00:15:15.289525959 [W:onnxruntime:, transformer_memcpy.cc:74 ApplyImpl] 8 Memcpy nodes are added to the graph main_graph for CUDAExecutionProvider. It might have negative impact on performance (including unable to run CUDA graph). Set session_options.log_severity_level=1 to see the detail logs before this message.[m
+2025-06-13 00:15:15: [0;93m2025-06-13 00:15:15.292149534 [W:onnxruntime:, session_state.cc:1166 VerifyEachNodeIsAssignedToAnEp] Some nodes were not assigned to the preferred execution providers which may or may not have an negative impact on performance. e.g. ORT explicitly assigns shape related ops to CPU to improve perf.[m
+2025-06-13 00:15:15: [0;93m2025-06-13 00:15:15.292161027 [W:onnxruntime:, session_state.cc:1168 VerifyEachNodeIsAssignedToAnEp] Rerunning with verbose output on a non-minimal build will show node assignments.[m
+2025-06-13 00:15:15: 2025-06-13 00:15:15,432 WETEXT INFO building fst for zh_normalizer ...
+2025-06-13 00:15:15: 2025-06-13 00:15:15,432 INFO building fst for zh_normalizer ...
+2025-06-13 00:15:36: 2025-06-13 00:15:36,834 WETEXT INFO done
+2025-06-13 00:15:36: 2025-06-13 00:15:36,834 INFO done
+2025-06-13 00:15:36: 2025-06-13 00:15:36,835 WETEXT INFO fst path: /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/zh_tn_tagger.fst
+2025-06-13 00:15:36: 2025-06-13 00:15:36,835 INFO fst path: /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/zh_tn_tagger.fst
+2025-06-13 00:15:36: 2025-06-13 00:15:36,835 WETEXT INFO           /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/zh_tn_verbalizer.fst
+2025-06-13 00:15:36: 2025-06-13 00:15:36,835 INFO           /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/zh_tn_verbalizer.fst
+2025-06-13 00:15:36: 2025-06-13 00:15:36,838 WETEXT INFO found existing fst: /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/en_tn_tagger.fst
+2025-06-13 00:15:36: 2025-06-13 00:15:36,838 INFO found existing fst: /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/en_tn_tagger.fst
+2025-06-13 00:15:36: 2025-06-13 00:15:36,838 WETEXT INFO                     /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/en_tn_verbalizer.fst
+2025-06-13 00:15:36: 2025-06-13 00:15:36,838 INFO                     /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/en_tn_verbalizer.fst
+2025-06-13 00:15:36: 2025-06-13 00:15:36,838 WETEXT INFO skip building fst for en_normalizer ...
+2025-06-13 00:15:36: 2025-06-13 00:15:36,838 INFO skip building fst for en_normalizer ...
+2025-06-13 00:15:39: INFO:     Started server process [1721036]
+2025-06-13 00:15:39: INFO:     Waiting for application startup.
+2025-06-13 00:15:39: INFO:     Application startup complete.
+2025-06-13 00:15:39: ERROR:    [Errno 98] error while attempting to bind on address ('0.0.0.0', 8080): address already in use
+2025-06-13 00:15:39: INFO:     Waiting for application shutdown.
+2025-06-13 00:15:39: INFO:     Application shutdown complete.
+2025-06-13 00:15:46: /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/diffusers/models/lora.py:393: FutureWarning: `LoRACompatibleLinear` is deprecated and will be removed in version 1.0.0. Use of `LoRACompatibleLinear` is deprecated. Please switch to PEFT backend by installing PEFT: `pip install peft`.
+2025-06-13 00:15:46:   deprecate("LoRACompatibleLinear", "1.0.0", deprecation_message)
+2025-06-13 00:15:47: 2025-06-13 00:15:47,003 INFO input frame rate=25
+2025-06-13 00:15:47: Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+2025-06-13 00:15:47: Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+2025-06-13 00:15:48: [0;93m2025-06-13 00:15:48.163502873 [W:onnxruntime:, transformer_memcpy.cc:74 ApplyImpl] 8 Memcpy nodes are added to the graph main_graph for CUDAExecutionProvider. It might have negative impact on performance (including unable to run CUDA graph). Set session_options.log_severity_level=1 to see the detail logs before this message.[m
+2025-06-13 00:15:48: [0;93m2025-06-13 00:15:48.166112177 [W:onnxruntime:, session_state.cc:1166 VerifyEachNodeIsAssignedToAnEp] Some nodes were not assigned to the preferred execution providers which may or may not have an negative impact on performance. e.g. ORT explicitly assigns shape related ops to CPU to improve perf.[m
+2025-06-13 00:15:48: [0;93m2025-06-13 00:15:48.166123414 [W:onnxruntime:, session_state.cc:1168 VerifyEachNodeIsAssignedToAnEp] Rerunning with verbose output on a non-minimal build will show node assignments.[m
+2025-06-13 00:15:48: 2025-06-13 00:15:48,303 WETEXT INFO building fst for zh_normalizer ...
+2025-06-13 00:15:48: 2025-06-13 00:15:48,303 INFO building fst for zh_normalizer ...
+2025-06-13 00:16:09: 2025-06-13 00:16:09,641 WETEXT INFO done
+2025-06-13 00:16:09: 2025-06-13 00:16:09,641 INFO done
+2025-06-13 00:16:09: 2025-06-13 00:16:09,641 WETEXT INFO fst path: /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/zh_tn_tagger.fst
+2025-06-13 00:16:09: 2025-06-13 00:16:09,641 INFO fst path: /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/zh_tn_tagger.fst
+2025-06-13 00:16:09: 2025-06-13 00:16:09,641 WETEXT INFO           /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/zh_tn_verbalizer.fst
+2025-06-13 00:16:09: 2025-06-13 00:16:09,641 INFO           /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/zh_tn_verbalizer.fst
+2025-06-13 00:16:09: 2025-06-13 00:16:09,644 WETEXT INFO found existing fst: /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/en_tn_tagger.fst
+2025-06-13 00:16:09: 2025-06-13 00:16:09,644 INFO found existing fst: /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/en_tn_tagger.fst
+2025-06-13 00:16:09: 2025-06-13 00:16:09,645 WETEXT INFO                     /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/en_tn_verbalizer.fst
+2025-06-13 00:16:09: 2025-06-13 00:16:09,645 INFO                     /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/en_tn_verbalizer.fst
+2025-06-13 00:16:09: 2025-06-13 00:16:09,645 WETEXT INFO skip building fst for en_normalizer ...
+2025-06-13 00:16:09: 2025-06-13 00:16:09,645 INFO skip building fst for en_normalizer ...
+2025-06-13 00:16:11: INFO:     Started server process [1721230]
+2025-06-13 00:16:11: INFO:     Waiting for application startup.
+2025-06-13 00:16:11: INFO:     Application startup complete.
+2025-06-13 00:16:11: ERROR:    [Errno 98] error while attempting to bind on address ('0.0.0.0', 8080): address already in use
+2025-06-13 00:16:11: INFO:     Waiting for application shutdown.
+2025-06-13 00:16:11: INFO:     Application shutdown complete.
+2025-06-13 00:16:18: /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/diffusers/models/lora.py:393: FutureWarning: `LoRACompatibleLinear` is deprecated and will be removed in version 1.0.0. Use of `LoRACompatibleLinear` is deprecated. Please switch to PEFT backend by installing PEFT: `pip install peft`.
+2025-06-13 00:16:18:   deprecate("LoRACompatibleLinear", "1.0.0", deprecation_message)
+2025-06-13 00:16:19: 2025-06-13 00:16:19,795 INFO input frame rate=25
+2025-06-13 00:16:20: Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+2025-06-13 00:16:20: Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+2025-06-13 00:16:20: [0;93m2025-06-13 00:16:20.955815851 [W:onnxruntime:, transformer_memcpy.cc:74 ApplyImpl] 8 Memcpy nodes are added to the graph main_graph for CUDAExecutionProvider. It might have negative impact on performance (including unable to run CUDA graph). Set session_options.log_severity_level=1 to see the detail logs before this message.[m
+2025-06-13 00:16:20: [0;93m2025-06-13 00:16:20.958436134 [W:onnxruntime:, session_state.cc:1166 VerifyEachNodeIsAssignedToAnEp] Some nodes were not assigned to the preferred execution providers which may or may not have an negative impact on performance. e.g. ORT explicitly assigns shape related ops to CPU to improve perf.[m
+2025-06-13 00:16:20: [0;93m2025-06-13 00:16:20.958446808 [W:onnxruntime:, session_state.cc:1168 VerifyEachNodeIsAssignedToAnEp] Rerunning with verbose output on a non-minimal build will show node assignments.[m
+2025-06-13 00:16:21: 2025-06-13 00:16:21,093 WETEXT INFO building fst for zh_normalizer ...
+2025-06-13 00:16:21: 2025-06-13 00:16:21,093 INFO building fst for zh_normalizer ...
+2025-06-13 00:16:42: 2025-06-13 00:16:42,574 WETEXT INFO done
+2025-06-13 00:16:42: 2025-06-13 00:16:42,574 INFO done
+2025-06-13 00:16:42: 2025-06-13 00:16:42,574 WETEXT INFO fst path: /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/zh_tn_tagger.fst
+2025-06-13 00:16:42: 2025-06-13 00:16:42,574 INFO fst path: /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/zh_tn_tagger.fst
+2025-06-13 00:16:42: 2025-06-13 00:16:42,574 WETEXT INFO           /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/zh_tn_verbalizer.fst
+2025-06-13 00:16:42: 2025-06-13 00:16:42,574 INFO           /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/zh_tn_verbalizer.fst
+2025-06-13 00:16:42: 2025-06-13 00:16:42,578 WETEXT INFO found existing fst: /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/en_tn_tagger.fst
+2025-06-13 00:16:42: 2025-06-13 00:16:42,578 INFO found existing fst: /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/en_tn_tagger.fst
+2025-06-13 00:16:42: 2025-06-13 00:16:42,578 WETEXT INFO                     /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/en_tn_verbalizer.fst
+2025-06-13 00:16:42: 2025-06-13 00:16:42,578 INFO                     /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/en_tn_verbalizer.fst
+2025-06-13 00:16:42: 2025-06-13 00:16:42,578 WETEXT INFO skip building fst for en_normalizer ...
+2025-06-13 00:16:42: 2025-06-13 00:16:42,578 INFO skip building fst for en_normalizer ...
+2025-06-13 00:16:44: INFO:     Started server process [1721349]
+2025-06-13 00:16:44: INFO:     Waiting for application startup.
+2025-06-13 00:16:44: INFO:     Application startup complete.
+2025-06-13 00:16:44: INFO:     Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)
+2025-06-13 00:41:28: WARNING:  Invalid HTTP request received.
+2025-06-13 00:41:29: WARNING:  Invalid HTTP request received.
+2025-06-13 00:41:34: WARNING:  Invalid HTTP request received.
+2025-06-13 00:41:35: WARNING:  Invalid HTTP request received.
+2025-06-13 00:41:35: WARNING:  Invalid HTTP request received.
+2025-06-13 00:41:35: WARNING:  Invalid HTTP request received.
+2025-06-13 00:41:36: WARNING:  Invalid HTTP request received.
+2025-06-13 00:41:36: WARNING:  Invalid HTTP request received.
+2025-06-13 00:41:36: WARNING:  Invalid HTTP request received.
+2025-06-13 00:41:36: WARNING:  Invalid HTTP request received.
+2025-06-13 00:41:37: WARNING:  Invalid HTTP request received.
+2025-06-13 00:41:37: WARNING:  Invalid HTTP request received.
+2025-06-13 00:41:37: WARNING:  Invalid HTTP request received.
+2025-06-13 00:41:38: WARNING:  Invalid HTTP request received.
+2025-06-13 00:41:38: WARNING:  Invalid HTTP request received.
+2025-06-13 00:41:38: WARNING:  Invalid HTTP request received.
+2025-06-13 00:41:38: WARNING:  Invalid HTTP request received.
+2025-06-13 00:41:39: WARNING:  Invalid HTTP request received.
+2025-06-13 00:41:39: WARNING:  Invalid HTTP request received.
+2025-06-13 00:41:39: WARNING:  Invalid HTTP request received.
+2025-06-13 00:41:39: WARNING:  Invalid HTTP request received.
+2025-06-13 00:41:40: WARNING:  Invalid HTTP request received.
+2025-06-13 00:41:40: WARNING:  Invalid HTTP request received.
+2025-06-13 00:41:40: WARNING:  Invalid HTTP request received.
+2025-06-13 00:41:40: WARNING:  Invalid HTTP request received.
+2025-06-13 00:41:41: WARNING:  Invalid HTTP request received.
+2025-06-13 00:41:41: WARNING:  Invalid HTTP request received.
+2025-06-13 00:41:41: WARNING:  Invalid HTTP request received.
+2025-06-13 00:41:42: WARNING:  Invalid HTTP request received.
+2025-06-13 00:41:42: WARNING:  Invalid HTTP request received.
+2025-06-13 00:41:42: WARNING:  Invalid HTTP request received.
+2025-06-13 00:41:42: WARNING:  Invalid HTTP request received.
+2025-06-13 00:41:43: WARNING:  Invalid HTTP request received.
+2025-06-13 00:41:43: WARNING:  Invalid HTTP request received.
+2025-06-13 00:41:43: WARNING:  Invalid HTTP request received.
+2025-06-13 00:41:44: WARNING:  Invalid HTTP request received.
+2025-06-13 00:41:44: WARNING:  Invalid HTTP request received.
+2025-06-13 00:41:44: WARNING:  Invalid HTTP request received.
+2025-06-13 00:41:44: WARNING:  Invalid HTTP request received.
+2025-06-13 00:41:45: WARNING:  Invalid HTTP request received.
+2025-06-13 00:41:45: WARNING:  Invalid HTTP request received.
+2025-06-13 00:41:45: WARNING:  Invalid HTTP request received.
+2025-06-13 00:41:45: WARNING:  Invalid HTTP request received.
+2025-06-13 00:41:46: WARNING:  Invalid HTTP request received.
+2025-06-13 00:41:46: WARNING:  Invalid HTTP request received.
+2025-06-13 00:41:46: WARNING:  Invalid HTTP request received.
+2025-06-13 00:41:52: WARNING:  Invalid HTTP request received.
+2025-06-13 00:41:52: WARNING:  Invalid HTTP request received.
+2025-06-13 00:41:53: WARNING:  Invalid HTTP request received.
+2025-06-13 00:41:53: WARNING:  Invalid HTTP request received.
+2025-06-13 00:41:53: WARNING:  Invalid HTTP request received.
+2025-06-13 00:41:54: WARNING:  Invalid HTTP request received.
+2025-06-13 00:41:54: WARNING:  Invalid HTTP request received.
+2025-06-13 00:41:54: WARNING:  Invalid HTTP request received.
+2025-06-13 00:41:55: WARNING:  Invalid HTTP request received.
+2025-06-13 00:42:00: WARNING:  Invalid HTTP request received.
+2025-06-13 00:42:00: WARNING:  Invalid HTTP request received.
+2025-06-13 00:42:00: WARNING:  Invalid HTTP request received.
+2025-06-13 00:42:01: WARNING:  Invalid HTTP request received.
+2025-06-13 00:42:01: WARNING:  Invalid HTTP request received.
+2025-06-13 00:42:01: WARNING:  Invalid HTTP request received.
+2025-06-13 00:42:02: WARNING:  Invalid HTTP request received.
+2025-06-13 00:42:02: WARNING:  Invalid HTTP request received.
+2025-06-13 00:43:28: WARNING:  Invalid HTTP request received.
+2025-06-13 00:44:28: WARNING:  Invalid HTTP request received.
+2025-06-13 00:44:39: WARNING:  Invalid HTTP request received.
+2025-06-13 00:45:00: WARNING:  Invalid HTTP request received.
+2025-06-13 00:45:10: WARNING:  Invalid HTTP request received.
+2025-06-13 00:45:10: WARNING:  Invalid HTTP request received.
+2025-06-13 06:15:13: WARNING:  Invalid HTTP request received.
+2025-06-13 06:17:43: WARNING:  Invalid HTTP request received.
+2025-06-13 06:17:44: WARNING:  Invalid HTTP request received.
+2025-06-13 06:17:46: WARNING:  Unsupported upgrade request.
+2025-06-13 06:17:46: WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+2025-06-13 06:17:46: WARNING:  Invalid HTTP request received.
+2025-06-13 06:19:54: WARNING:  Unsupported upgrade request.
+2025-06-13 06:19:54: WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+2025-06-13 06:19:54: WARNING:  Invalid HTTP request received.
+2025-06-13 06:20:21: WARNING:  Unsupported upgrade request.
+2025-06-13 06:20:21: WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+2025-06-13 06:20:21: WARNING:  Invalid HTTP request received.
+2025-06-13 06:20:22: WARNING:  Unsupported upgrade request.
+2025-06-13 06:20:22: WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+2025-06-13 06:20:22: WARNING:  Invalid HTTP request received.
+2025-06-13 06:20:23: WARNING:  Unsupported upgrade request.
+2025-06-13 06:20:23: WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+2025-06-13 06:20:23: WARNING:  Invalid HTTP request received.
+2025-06-13 06:20:23: WARNING:  Unsupported upgrade request.
+2025-06-13 06:20:23: WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+2025-06-13 06:20:23: WARNING:  Invalid HTTP request received.
+2025-06-13 08:59:46: WARNING:  Invalid HTTP request received.
+2025-06-13 08:59:46: WARNING:  Invalid HTTP request received.
+2025-06-13 09:40:17: WARNING:  Unsupported upgrade request.
+2025-06-13 09:40:17: WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+2025-06-13 09:40:17: WARNING:  Invalid HTTP request received.
+2025-06-13 09:58:21:   0%|          | 0/1 [00:00<?, ?it/s]2025-06-13 09:58:21,141 WARNING synthesis text 测试文本! too short than prompt text 第一盟同庄大世界八村镇店六月一日到三日盛大开业公司主营一到十八岁同庄同学内涉豪华儿童游乐园公宝宝免费玩耍第一盟同庄大世界福利多多快来选购吧, this may lead to bad performance
+2025-06-13 09:58:28: 2025-06-13 09:58:28,864 INFO synthesis text 测试文本!
+2025-06-13 09:58:30: 2025-06-13 09:58:30,826 INFO yield speech len 1.4, rtf 1.4014223643711636
+2025-06-13 09:58:30:   0%|          | 0/1 [00:09<?, ?it/s]
+2025-06-13 09:58:30: huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+2025-06-13 09:58:30: To disable this warning, you can either:
+2025-06-13 09:58:30: 	- Avoid using `tokenizers` before the fork if possible
+2025-06-13 09:58:30: 	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+2025-06-13 10:25:38:   0%|          | 0/1 [00:00<?, ?it/s]
+2025-06-13 10:25:39: 2025-06-13 10:25:39,026 INFO synthesis text 好消息，好消息，湘潭路海悦华府科恩智能厨卫电器店优惠大酬宾，为了让周边社区的邻居朋友们买到实惠实用，性价比更高的电器智能产品，本店特别推出以下优惠活动：原价七百九十九的燃气灶。
+2025-06-13 10:25:47: 2025-06-13 10:25:47,825 INFO yield speech len 16.56, rtf 0.531397407181597
+2025-06-13 10:25:47:   0%|          | 0/1 [00:09<?, ?it/s]
+2025-06-13 10:25:47:   0%|          | 0/2 [00:00<?, ?it/s]
+2025-06-13 10:25:48: 2025-06-13 10:25:48,078 INFO synthesis text 现优惠价只需四百九十九。原价八百九十九的燃气灶，现优惠价只需五百九十九。原价两千零九十九的油烟机，现优惠价只需一千三百九十九。
+2025-06-13 10:25:55: 2025-06-13 10:25:55,348 INFO yield speech len 13.52, rtf 0.5377286284632937
+2025-06-13 10:25:55:   0%|          | 0/2 [00:07<?, ?it/s]
+2025-06-13 10:25:55:   0%|          | 0/1 [00:00<?, ?it/s]
+2025-06-13 10:25:55: 2025-06-13 10:25:55,599 INFO synthesis text 网上卖一千零九十九的德国品牌艾栖智能锁，现优惠价只需五九九。原价一千五百九十九的自动下滑盖智能锁，现优惠价只需七九九。原价两千两百九十九的人脸识别远程遥控智能锁，现优惠价只需一千一百九十九。
+2025-06-13 10:26:06: 2025-06-13 10:26:06,164 INFO yield speech len 19.76, rtf 0.5346437818125674
+2025-06-13 10:26:06:   0%|          | 0/1 [00:10<?, ?it/s]
+2025-06-13 10:26:06:   0%|          | 0/1 [00:00<?, ?it/s]
+2025-06-13 10:26:06: 2025-06-13 10:26:06,188 WARNING synthesis text 原价幺九九的美的落地扇，现优惠价只需幺五九。 too short than prompt text 第一盟同庄大世界八村镇店六月一日到三日盛大开业公司主营一到十八岁同庄同学内涉豪华儿童游乐园公宝宝免费玩耍第一盟同庄大世界福利多多快来选购吧, this may lead to bad performance
+2025-06-13 10:26:06: 2025-06-13 10:26:06,405 INFO synthesis text 原价幺九九的美的落地扇，现优惠价只需幺五九。
+2025-06-13 10:26:10: 2025-06-13 10:26:10,108 INFO yield speech len 5.6, rtf 0.6612927573067802
+2025-06-13 10:26:10:   0%|          | 0/1 [00:03<?, ?it/s]
+2025-06-13 10:26:10:   0%|          | 0/1 [00:00<?, ?it/s]
+2025-06-13 10:26:10: 2025-06-13 10:26:10,356 INFO synthesis text 本店所有产品均可参加以旧换新购买活动：旧燃气灶可以抵扣五十旧热水器可以抵扣幺零零旧油烟机可以抵扣二零零旧机械锁可以抵扣五十旧智能锁可以抵扣幺零零货真价实，所有产品均是原装正品。
+2025-06-13 10:26:21: 2025-06-13 10:26:21,584 INFO yield speech len 19.72, rtf 0.5693410884052454
+2025-06-13 10:26:21:   0%|          | 0/1 [00:11<?, ?it/s]
+2025-06-13 10:26:21:   0%|          | 0/1 [00:00<?, ?it/s]
+2025-06-13 10:26:21: 2025-06-13 10:26:21,836 INFO synthesis text 享受国家三包政策，网上做到的我们一样能做到，网上做不到的我们也一样能做得到，所以您不用怕买贵，更不用担心花冤枉钱，店面就在您的家门口，安装方便，服务快捷，售后更加有保障，让您买得放心，用得更安心！
+2025-06-13 10:26:31: 2025-06-13 10:26:31,723 INFO yield speech len 18.64, rtf 0.5304597222242232
+2025-06-13 10:26:31:   0%|          | 0/1 [00:10<?, ?it/s]
+2025-06-13 10:26:31:   0%|          | 0/1 [00:00<?, ?it/s]
+2025-06-13 10:26:31: 2025-06-13 10:26:31,747 WARNING synthesis text 活动地址湘潭路海悦华府北门都市甜心蛋糕店左边。 too short than prompt text 第一盟同庄大世界八村镇店六月一日到三日盛大开业公司主营一到十八岁同庄同学内涉豪华儿童游乐园公宝宝免费玩耍第一盟同庄大世界福利多多快来选购吧, this may lead to bad performance
+2025-06-13 10:26:31: 2025-06-13 10:26:31,963 INFO synthesis text 活动地址湘潭路海悦华府北门都市甜心蛋糕店左边。
+2025-06-13 10:26:35: 2025-06-13 10:26:35,878 INFO yield speech len 6.12, rtf 0.639745846293331
+2025-06-13 10:26:35:   0%|          | 0/1 [00:04<?, ?it/s]
+2025-06-13 10:26:35: huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+2025-06-13 10:26:35: To disable this warning, you can either:
+2025-06-13 10:26:35: 	- Avoid using `tokenizers` before the fork if possible
+2025-06-13 10:26:35: 	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+2025-06-13 10:30:33:   0%|          | 0/1 [00:00<?, ?it/s]
+2025-06-13 10:30:33: 2025-06-13 10:30:33,716 INFO synthesis text 好消息，好消息，湘潭路海悦华府科恩智能厨卫电器店优惠大酬宾，为了让周边社区的邻居朋友们买到实惠实用，性价比更高的电器智能产品，本店特别推出以下优惠活动：原价七百九十九的燃气灶。
+2025-06-13 10:30:43: 2025-06-13 10:30:43,423 INFO yield speech len 17.32, rtf 0.560457230164878
+2025-06-13 10:30:43:   0%|          | 0/1 [00:09<?, ?it/s]
+2025-06-13 10:30:43:   0%|          | 0/2 [00:00<?, ?it/s]
+2025-06-13 10:30:43: 2025-06-13 10:30:43,675 INFO synthesis text 现优惠价只需四百九十九。原价八百九十九的燃气灶，现优惠价只需五百九十九。原价两千零九十九的油烟机，现优惠价只需一千三百九十九。
+2025-06-13 10:30:51: 2025-06-13 10:30:51,506 INFO yield speech len 13.72, rtf 0.5707617230039991
+2025-06-13 10:30:51:   0%|          | 0/2 [00:08<?, ?it/s]
+2025-06-13 10:30:51:   0%|          | 0/1 [00:00<?, ?it/s]
+2025-06-13 10:30:51: 2025-06-13 10:30:51,758 INFO synthesis text 网上卖一千零九十九的德国品牌艾栖智能锁，现优惠价只需五九九。原价一千五百九十九的自动下滑盖智能锁，现优惠价只需七九九。原价两千两百九十九的人脸识别远程遥控智能锁，现优惠价只需一千一百九十九。
+2025-06-13 10:31:03: 2025-06-13 10:31:03,077 INFO yield speech len 20.04, rtf 0.5648145299709724
+2025-06-13 10:31:03:   0%|          | 0/1 [00:11<?, ?it/s]
+2025-06-13 10:31:03:   0%|          | 0/1 [00:00<?, ?it/s]
+2025-06-13 10:31:03: 2025-06-13 10:31:03,101 WARNING synthesis text 原价幺九九的美的落地扇，现优惠价只需幺五九。 too short than prompt text 第一盟同庄大世界八村镇店六月一日到三日盛大开业公司主营一到十八岁同庄同学内涉豪华儿童游乐园公宝宝免费玩耍第一盟同庄大世界福利多多快来选购吧, this may lead to bad performance
+2025-06-13 10:31:03: 2025-06-13 10:31:03,319 INFO synthesis text 原价幺九九的美的落地扇，现优惠价只需幺五九。
+2025-06-13 10:31:07: 2025-06-13 10:31:07,036 INFO yield speech len 5.64, rtf 0.6591033005545326
+2025-06-13 10:31:07:   0%|          | 0/1 [00:03<?, ?it/s]
+2025-06-13 10:31:07:   0%|          | 0/1 [00:00<?, ?it/s]
+2025-06-13 10:31:07: 2025-06-13 10:31:07,287 INFO synthesis text 本店所有产品均可参加以旧换新购买活动：旧燃气灶可以抵扣五十旧热水器可以抵扣幺零零旧油烟机可以抵扣二零零旧机械锁可以抵扣五十旧智能锁可以抵扣幺零零货真价实，所有产品均是原装正品。
+2025-06-13 10:31:17: 2025-06-13 10:31:17,458 INFO yield speech len 19.12, rtf 0.5319878022541061
+2025-06-13 10:31:17:   0%|          | 0/1 [00:10<?, ?it/s]
+2025-06-13 10:31:17:   0%|          | 0/1 [00:00<?, ?it/s]
+2025-06-13 10:31:17: 2025-06-13 10:31:17,709 INFO synthesis text 享受国家三包政策，网上做到的我们一样能做到，网上做不到的我们也一样能做得到，所以您不用怕买贵，更不用担心花冤枉钱，店面就在您的家门口，安装方便，服务快捷，售后更加有保障，让您买得放心，用得更安心！
+2025-06-13 10:31:27: 2025-06-13 10:31:27,827 INFO yield speech len 17.8, rtf 0.568437147676275
+2025-06-13 10:31:27:   0%|          | 0/1 [00:10<?, ?it/s]
+2025-06-13 10:31:27:   0%|          | 0/1 [00:00<?, ?it/s]2025-06-13 10:31:27,850 WARNING synthesis text 活动地址湘潭路海悦华府北门都市甜心蛋糕店左边。 too short than prompt text 第一盟同庄大世界八村镇店六月一日到三日盛大开业公司主营一到十八岁同庄同学内涉豪华儿童游乐园公宝宝免费玩耍第一盟同庄大世界福利多多快来选购吧, this may lead to bad performance
+2025-06-13 10:31:28: 2025-06-13 10:31:28,067 INFO synthesis text 活动地址湘潭路海悦华府北门都市甜心蛋糕店左边。
+2025-06-13 10:31:32: 2025-06-13 10:31:32,300 INFO yield speech len 6.96, rtf 0.6080883672867698
+2025-06-13 10:31:32:   0%|          | 0/1 [00:04<?, ?it/s]
+2025-06-13 10:31:32: huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+2025-06-13 10:31:32: To disable this warning, you can either:
+2025-06-13 10:31:32: 	- Avoid using `tokenizers` before the fork if possible
+2025-06-13 10:31:32: 	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+2025-06-13 10:32:45: INFO:     Shutting down
+2025-06-13 10:32:45: INFO:     Waiting for application shutdown.
+2025-06-13 10:32:45: INFO:     Application shutdown complete.
+2025-06-13 10:32:45: INFO:     Finished server process [1721349]
+2025-06-13 10:32:52: /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/diffusers/models/lora.py:393: FutureWarning: `LoRACompatibleLinear` is deprecated and will be removed in version 1.0.0. Use of `LoRACompatibleLinear` is deprecated. Please switch to PEFT backend by installing PEFT: `pip install peft`.
+2025-06-13 10:32:52:   deprecate("LoRACompatibleLinear", "1.0.0", deprecation_message)
+2025-06-13 10:32:53: 2025-06-13 10:32:53,245 INFO input frame rate=25
+2025-06-13 10:32:53: Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+2025-06-13 10:32:53: Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+2025-06-13 10:32:54: [0;93m2025-06-13 10:32:54.400113336 [W:onnxruntime:, transformer_memcpy.cc:74 ApplyImpl] 8 Memcpy nodes are added to the graph main_graph for CUDAExecutionProvider. It might have negative impact on performance (including unable to run CUDA graph). Set session_options.log_severity_level=1 to see the detail logs before this message.[m
+2025-06-13 10:32:54: [0;93m2025-06-13 10:32:54.402888422 [W:onnxruntime:, session_state.cc:1166 VerifyEachNodeIsAssignedToAnEp] Some nodes were not assigned to the preferred execution providers which may or may not have an negative impact on performance. e.g. ORT explicitly assigns shape related ops to CPU to improve perf.[m
+2025-06-13 10:32:54: [0;93m2025-06-13 10:32:54.402903781 [W:onnxruntime:, session_state.cc:1168 VerifyEachNodeIsAssignedToAnEp] Rerunning with verbose output on a non-minimal build will show node assignments.[m
+2025-06-13 10:32:54: 2025-06-13 10:32:54,541 WETEXT INFO building fst for zh_normalizer ...
+2025-06-13 10:32:54: 2025-06-13 10:32:54,541 INFO building fst for zh_normalizer ...
+2025-06-13 10:33:15: 2025-06-13 10:33:15,863 WETEXT INFO done
+2025-06-13 10:33:15: 2025-06-13 10:33:15,863 INFO done
+2025-06-13 10:33:15: 2025-06-13 10:33:15,863 WETEXT INFO fst path: /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/zh_tn_tagger.fst
+2025-06-13 10:33:15: 2025-06-13 10:33:15,863 INFO fst path: /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/zh_tn_tagger.fst
+2025-06-13 10:33:15: 2025-06-13 10:33:15,863 WETEXT INFO           /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/zh_tn_verbalizer.fst
+2025-06-13 10:33:15: 2025-06-13 10:33:15,863 INFO           /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/zh_tn_verbalizer.fst
+2025-06-13 10:33:15: 2025-06-13 10:33:15,867 WETEXT INFO found existing fst: /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/en_tn_tagger.fst
+2025-06-13 10:33:15: 2025-06-13 10:33:15,867 INFO found existing fst: /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/en_tn_tagger.fst
+2025-06-13 10:33:15: 2025-06-13 10:33:15,867 WETEXT INFO                     /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/en_tn_verbalizer.fst
+2025-06-13 10:33:15: 2025-06-13 10:33:15,867 INFO                     /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/en_tn_verbalizer.fst
+2025-06-13 10:33:15: 2025-06-13 10:33:15,867 WETEXT INFO skip building fst for en_normalizer ...
+2025-06-13 10:33:15: 2025-06-13 10:33:15,867 INFO skip building fst for en_normalizer ...
+2025-06-13 10:33:18: INFO:     Started server process [1727696]
+2025-06-13 10:33:18: INFO:     Waiting for application startup.
+2025-06-13 10:33:18: INFO:     Application startup complete.
+2025-06-13 10:33:18: INFO:     Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)
+2025-06-13 10:34:48:   0%|          | 0/6 [00:00<?, ?it/s]
+2025-06-13 10:34:57: 2025-06-13 10:34:57,464 INFO synthesis text 好消息，好消息，湘潭路海悦华府科恩智能厨卫电器店优惠大酬宾，为了让周边社区的邻居朋友们买到实惠实用，性价比更高的电器智能产品，本店特别推出以下优惠活动：
+2025-06-13 10:35:06: 2025-06-13 10:35:06,613 INFO yield speech len 15.56, rtf 0.5880165835579134
+2025-06-13 10:35:06:   0%|          | 0/6 [00:17<?, ?it/s]
+2025-06-13 10:35:06: huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+2025-06-13 10:35:06: To disable this warning, you can either:
+2025-06-13 10:35:06: 	- Avoid using `tokenizers` before the fork if possible
+2025-06-13 10:35:06: 	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+2025-06-13 10:45:04: INFO:     Shutting down
+2025-06-13 10:45:04: INFO:     Waiting for application shutdown.
+2025-06-13 10:45:04: INFO:     Application shutdown complete.
+2025-06-13 10:45:04: INFO:     Finished server process [1727696]
+2025-06-13 10:45:11: /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/diffusers/models/lora.py:393: FutureWarning: `LoRACompatibleLinear` is deprecated and will be removed in version 1.0.0. Use of `LoRACompatibleLinear` is deprecated. Please switch to PEFT backend by installing PEFT: `pip install peft`.
+2025-06-13 10:45:11:   deprecate("LoRACompatibleLinear", "1.0.0", deprecation_message)
+2025-06-13 10:45:12: 2025-06-13 10:45:12,398 INFO input frame rate=25
+2025-06-13 10:45:12: Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+2025-06-13 10:45:12: Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+2025-06-13 10:45:13: [0;93m2025-06-13 10:45:13.561888678 [W:onnxruntime:, transformer_memcpy.cc:74 ApplyImpl] 8 Memcpy nodes are added to the graph main_graph for CUDAExecutionProvider. It might have negative impact on performance (including unable to run CUDA graph). Set session_options.log_severity_level=1 to see the detail logs before this message.[m
+2025-06-13 10:45:13: [0;93m2025-06-13 10:45:13.564707112 [W:onnxruntime:, session_state.cc:1166 VerifyEachNodeIsAssignedToAnEp] Some nodes were not assigned to the preferred execution providers which may or may not have an negative impact on performance. e.g. ORT explicitly assigns shape related ops to CPU to improve perf.[m
+2025-06-13 10:45:13: [0;93m2025-06-13 10:45:13.564720588 [W:onnxruntime:, session_state.cc:1168 VerifyEachNodeIsAssignedToAnEp] Rerunning with verbose output on a non-minimal build will show node assignments.[m
+2025-06-13 10:45:13: 2025-06-13 10:45:13,706 WETEXT INFO building fst for zh_normalizer ...
+2025-06-13 10:45:13: 2025-06-13 10:45:13,706 INFO building fst for zh_normalizer ...
+2025-06-13 10:45:35: 2025-06-13 10:45:35,225 WETEXT INFO done
+2025-06-13 10:45:35: 2025-06-13 10:45:35,225 INFO done
+2025-06-13 10:45:35: 2025-06-13 10:45:35,225 WETEXT INFO fst path: /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/zh_tn_tagger.fst
+2025-06-13 10:45:35: 2025-06-13 10:45:35,225 INFO fst path: /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/zh_tn_tagger.fst
+2025-06-13 10:45:35: 2025-06-13 10:45:35,225 WETEXT INFO           /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/zh_tn_verbalizer.fst
+2025-06-13 10:45:35: 2025-06-13 10:45:35,225 INFO           /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/zh_tn_verbalizer.fst
+2025-06-13 10:45:35: 2025-06-13 10:45:35,229 WETEXT INFO found existing fst: /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/en_tn_tagger.fst
+2025-06-13 10:45:35: 2025-06-13 10:45:35,229 INFO found existing fst: /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/en_tn_tagger.fst
+2025-06-13 10:45:35: 2025-06-13 10:45:35,229 WETEXT INFO                     /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/en_tn_verbalizer.fst
+2025-06-13 10:45:35: 2025-06-13 10:45:35,229 INFO                     /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/en_tn_verbalizer.fst
+2025-06-13 10:45:35: 2025-06-13 10:45:35,229 WETEXT INFO skip building fst for en_normalizer ...
+2025-06-13 10:45:35: 2025-06-13 10:45:35,229 INFO skip building fst for en_normalizer ...
+2025-06-13 10:45:37: INFO:     Started server process [1728468]
+2025-06-13 10:45:37: INFO:     Waiting for application startup.
+2025-06-13 10:45:37: INFO:     Application startup complete.
+2025-06-13 10:45:37: INFO:     Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)
+2025-06-13 10:45:47:   0%|          | 0/6 [00:00<?, ?it/s]
+2025-06-13 10:45:56: 2025-06-13 10:45:56,607 INFO synthesis text 好消息，好消息，湘潭路海悦华府科恩智能厨卫电器店优惠大酬宾，为了让周边社区的邻居朋友们买到实惠实用，性价比更高的电器智能产品，本店特别推出以下优惠活动：
+2025-06-13 10:46:06: 2025-06-13 10:46:06,086 INFO yield speech len 14.48, rtf 0.6546210682853151
+2025-06-13 10:46:06:   0%|          | 0/6 [00:18<?, ?it/s]
+2025-06-13 10:46:06: huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+2025-06-13 10:46:06: To disable this warning, you can either:
+2025-06-13 10:46:06: 	- Avoid using `tokenizers` before the fork if possible
+2025-06-13 10:46:06: 	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+2025-06-13 10:46:22:   0%|          | 0/6 [00:00<?, ?it/s]
+2025-06-13 10:46:22: 2025-06-13 10:46:22,818 INFO synthesis text 好消息，好消息，湘潭路海悦华府科恩智能厨卫电器店优惠大酬宾，为了让周边社区的邻居朋友们买到实惠实用，性价比更高的电器智能产品，本店特别推出以下优惠活动：
+2025-06-13 10:46:32: 2025-06-13 10:46:32,556 INFO yield speech len 15.4, rtf 0.6323515285145153
+2025-06-13 10:46:32:   0%|          | 0/6 [00:10<?, ?it/s]
+2025-06-13 10:46:32: huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+2025-06-13 10:46:32: To disable this warning, you can either:
+2025-06-13 10:46:32: 	- Avoid using `tokenizers` before the fork if possible
+2025-06-13 10:46:32: 	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+2025-06-13 10:48:45: INFO:     Shutting down
+2025-06-13 10:48:45: INFO:     Waiting for application shutdown.
+2025-06-13 10:48:45: INFO:     Application shutdown complete.
+2025-06-13 10:48:45: INFO:     Finished server process [1728468]
+2025-06-13 10:48:53: /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/diffusers/models/lora.py:393: FutureWarning: `LoRACompatibleLinear` is deprecated and will be removed in version 1.0.0. Use of `LoRACompatibleLinear` is deprecated. Please switch to PEFT backend by installing PEFT: `pip install peft`.
+2025-06-13 10:48:53:   deprecate("LoRACompatibleLinear", "1.0.0", deprecation_message)
+2025-06-13 10:48:54: 2025-06-13 10:48:54,133 INFO input frame rate=25
+2025-06-13 10:48:54: Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+2025-06-13 10:48:54: Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+2025-06-13 10:48:55: [0;93m2025-06-13 10:48:55.300217823 [W:onnxruntime:, transformer_memcpy.cc:74 ApplyImpl] 8 Memcpy nodes are added to the graph main_graph for CUDAExecutionProvider. It might have negative impact on performance (including unable to run CUDA graph). Set session_options.log_severity_level=1 to see the detail logs before this message.[m
+2025-06-13 10:48:55: [0;93m2025-06-13 10:48:55.302778223 [W:onnxruntime:, session_state.cc:1166 VerifyEachNodeIsAssignedToAnEp] Some nodes were not assigned to the preferred execution providers which may or may not have an negative impact on performance. e.g. ORT explicitly assigns shape related ops to CPU to improve perf.[m
+2025-06-13 10:48:55: [0;93m2025-06-13 10:48:55.302791098 [W:onnxruntime:, session_state.cc:1168 VerifyEachNodeIsAssignedToAnEp] Rerunning with verbose output on a non-minimal build will show node assignments.[m
+2025-06-13 10:48:55: 2025-06-13 10:48:55,441 WETEXT INFO building fst for zh_normalizer ...
+2025-06-13 10:48:55: 2025-06-13 10:48:55,441 INFO building fst for zh_normalizer ...
+2025-06-13 10:49:16: 2025-06-13 10:49:16,951 WETEXT INFO done
+2025-06-13 10:49:16: 2025-06-13 10:49:16,951 INFO done
+2025-06-13 10:49:16: 2025-06-13 10:49:16,951 WETEXT INFO fst path: /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/zh_tn_tagger.fst
+2025-06-13 10:49:16: 2025-06-13 10:49:16,951 INFO fst path: /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/zh_tn_tagger.fst
+2025-06-13 10:49:16: 2025-06-13 10:49:16,951 WETEXT INFO           /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/zh_tn_verbalizer.fst
+2025-06-13 10:49:16: 2025-06-13 10:49:16,951 INFO           /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/zh_tn_verbalizer.fst
+2025-06-13 10:49:16: 2025-06-13 10:49:16,955 WETEXT INFO found existing fst: /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/en_tn_tagger.fst
+2025-06-13 10:49:16: 2025-06-13 10:49:16,955 INFO found existing fst: /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/en_tn_tagger.fst
+2025-06-13 10:49:16: 2025-06-13 10:49:16,955 WETEXT INFO                     /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/en_tn_verbalizer.fst
+2025-06-13 10:49:16: 2025-06-13 10:49:16,955 INFO                     /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/en_tn_verbalizer.fst
+2025-06-13 10:49:16: 2025-06-13 10:49:16,955 WETEXT INFO skip building fst for en_normalizer ...
+2025-06-13 10:49:16: 2025-06-13 10:49:16,955 INFO skip building fst for en_normalizer ...
+2025-06-13 10:49:19: INFO:     Started server process [1729274]
+2025-06-13 10:49:19: INFO:     Waiting for application startup.
+2025-06-13 10:49:19: INFO:     Application startup complete.
+2025-06-13 10:49:19: INFO:     Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)
+2025-06-13 10:49:24:   0%|          | 0/6 [00:00<?, ?it/s]
+2025-06-13 10:49:33: 2025-06-13 10:49:33,089 INFO synthesis text 好消息，好消息，湘潭路海悦华府科恩智能厨卫电器店优惠大酬宾，为了让周边社区的邻居朋友们买到实惠实用，性价比更高的电器智能产品，本店特别推出以下优惠活动：
+2025-06-13 10:49:42: 2025-06-13 10:49:42,581 INFO yield speech len 14.48, rtf 0.6555396713604584
+2025-06-13 10:49:42:   0%|          | 0/6 [00:18<?, ?it/s]
+2025-06-13 10:49:42: huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+2025-06-13 10:49:42: To disable this warning, you can either:
+2025-06-13 10:49:42: 	- Avoid using `tokenizers` before the fork if possible
+2025-06-13 10:49:42: 	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+2025-06-13 10:51:35: INFO:     Shutting down
+2025-06-13 10:51:35: INFO:     Waiting for application shutdown.
+2025-06-13 10:51:35: INFO:     Application shutdown complete.
+2025-06-13 10:51:35: INFO:     Finished server process [1729274]
+2025-06-13 10:51:42: /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/diffusers/models/lora.py:393: FutureWarning: `LoRACompatibleLinear` is deprecated and will be removed in version 1.0.0. Use of `LoRACompatibleLinear` is deprecated. Please switch to PEFT backend by installing PEFT: `pip install peft`.
+2025-06-13 10:51:42:   deprecate("LoRACompatibleLinear", "1.0.0", deprecation_message)
+2025-06-13 10:51:43: 2025-06-13 10:51:43,649 INFO input frame rate=25
+2025-06-13 10:51:44: Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+2025-06-13 10:51:44: Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+2025-06-13 10:51:44: [0;93m2025-06-13 10:51:44.810823252 [W:onnxruntime:, transformer_memcpy.cc:74 ApplyImpl] 8 Memcpy nodes are added to the graph main_graph for CUDAExecutionProvider. It might have negative impact on performance (including unable to run CUDA graph). Set session_options.log_severity_level=1 to see the detail logs before this message.[m
+2025-06-13 10:51:44: [0;93m2025-06-13 10:51:44.813438074 [W:onnxruntime:, session_state.cc:1166 VerifyEachNodeIsAssignedToAnEp] Some nodes were not assigned to the preferred execution providers which may or may not have an negative impact on performance. e.g. ORT explicitly assigns shape related ops to CPU to improve perf.[m
+2025-06-13 10:51:44: [0;93m2025-06-13 10:51:44.813451119 [W:onnxruntime:, session_state.cc:1168 VerifyEachNodeIsAssignedToAnEp] Rerunning with verbose output on a non-minimal build will show node assignments.[m
+2025-06-13 10:51:44: 2025-06-13 10:51:44,952 WETEXT INFO building fst for zh_normalizer ...
+2025-06-13 10:51:44: 2025-06-13 10:51:44,952 INFO building fst for zh_normalizer ...
+2025-06-13 10:52:06: 2025-06-13 10:52:06,484 WETEXT INFO done
+2025-06-13 10:52:06: 2025-06-13 10:52:06,484 INFO done
+2025-06-13 10:52:06: 2025-06-13 10:52:06,484 WETEXT INFO fst path: /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/zh_tn_tagger.fst
+2025-06-13 10:52:06: 2025-06-13 10:52:06,484 INFO fst path: /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/zh_tn_tagger.fst
+2025-06-13 10:52:06: 2025-06-13 10:52:06,484 WETEXT INFO           /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/zh_tn_verbalizer.fst
+2025-06-13 10:52:06: 2025-06-13 10:52:06,484 INFO           /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/zh_tn_verbalizer.fst
+2025-06-13 10:52:06: 2025-06-13 10:52:06,488 WETEXT INFO found existing fst: /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/en_tn_tagger.fst
+2025-06-13 10:52:06: 2025-06-13 10:52:06,488 INFO found existing fst: /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/en_tn_tagger.fst
+2025-06-13 10:52:06: 2025-06-13 10:52:06,488 WETEXT INFO                     /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/en_tn_verbalizer.fst
+2025-06-13 10:52:06: 2025-06-13 10:52:06,488 INFO                     /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/en_tn_verbalizer.fst
+2025-06-13 10:52:06: 2025-06-13 10:52:06,488 WETEXT INFO skip building fst for en_normalizer ...
+2025-06-13 10:52:06: 2025-06-13 10:52:06,488 INFO skip building fst for en_normalizer ...
+2025-06-13 10:52:08: INFO:     Started server process [1729771]
+2025-06-13 10:52:08: INFO:     Waiting for application startup.
+2025-06-13 10:52:08: INFO:     Application startup complete.
+2025-06-13 10:52:08: INFO:     Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)
+2025-06-13 10:52:17:   0%|          | 0/6 [00:00<?, ?it/s]
+2025-06-13 10:52:26: 2025-06-13 10:52:26,649 INFO synthesis text 好消息，好消息，湘潭路海悦华府科恩智能厨卫电器店优惠大酬宾，为了让周边社区的邻居朋友们买到实惠实用，性价比更高的电器智能产品，本店特别推出以下优惠活动：
+2025-06-13 10:52:36: 2025-06-13 10:52:36,755 INFO yield speech len 18.68, rtf 0.5410470850207311
+2025-06-13 10:52:36:   0%|          | 0/6 [00:18<?, ?it/s]
+2025-06-13 10:52:36: huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+2025-06-13 10:52:36: To disable this warning, you can either:
+2025-06-13 10:52:36: 	- Avoid using `tokenizers` before the fork if possible
+2025-06-13 10:52:36: 	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+2025-06-13 10:55:41: INFO:     Shutting down
+2025-06-13 10:55:41: INFO:     Waiting for application shutdown.
+2025-06-13 10:55:41: INFO:     Application shutdown complete.
+2025-06-13 10:55:41: INFO:     Finished server process [1729771]
+2025-06-13 10:55:48: /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/diffusers/models/lora.py:393: FutureWarning: `LoRACompatibleLinear` is deprecated and will be removed in version 1.0.0. Use of `LoRACompatibleLinear` is deprecated. Please switch to PEFT backend by installing PEFT: `pip install peft`.
+2025-06-13 10:55:48:   deprecate("LoRACompatibleLinear", "1.0.0", deprecation_message)
+2025-06-13 10:55:49: 2025-06-13 10:55:49,442 INFO input frame rate=25
+2025-06-13 10:55:49: Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+2025-06-13 10:55:50: Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+2025-06-13 10:55:50: [0;93m2025-06-13 10:55:50.601647154 [W:onnxruntime:, transformer_memcpy.cc:74 ApplyImpl] 8 Memcpy nodes are added to the graph main_graph for CUDAExecutionProvider. It might have negative impact on performance (including unable to run CUDA graph). Set session_options.log_severity_level=1 to see the detail logs before this message.[m
+2025-06-13 10:55:50: [0;93m2025-06-13 10:55:50.604295292 [W:onnxruntime:, session_state.cc:1166 VerifyEachNodeIsAssignedToAnEp] Some nodes were not assigned to the preferred execution providers which may or may not have an negative impact on performance. e.g. ORT explicitly assigns shape related ops to CPU to improve perf.[m
+2025-06-13 10:55:50: [0;93m2025-06-13 10:55:50.604307857 [W:onnxruntime:, session_state.cc:1168 VerifyEachNodeIsAssignedToAnEp] Rerunning with verbose output on a non-minimal build will show node assignments.[m
+2025-06-13 10:55:50: 2025-06-13 10:55:50,740 WETEXT INFO building fst for zh_normalizer ...
+2025-06-13 10:55:50: 2025-06-13 10:55:50,740 INFO building fst for zh_normalizer ...
+2025-06-13 10:56:12: 2025-06-13 10:56:12,140 WETEXT INFO done
+2025-06-13 10:56:12: 2025-06-13 10:56:12,140 INFO done
+2025-06-13 10:56:12: 2025-06-13 10:56:12,140 WETEXT INFO fst path: /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/zh_tn_tagger.fst
+2025-06-13 10:56:12: 2025-06-13 10:56:12,140 INFO fst path: /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/zh_tn_tagger.fst
+2025-06-13 10:56:12: 2025-06-13 10:56:12,140 WETEXT INFO           /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/zh_tn_verbalizer.fst
+2025-06-13 10:56:12: 2025-06-13 10:56:12,140 INFO           /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/zh_tn_verbalizer.fst
+2025-06-13 10:56:12: 2025-06-13 10:56:12,144 WETEXT INFO found existing fst: /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/en_tn_tagger.fst
+2025-06-13 10:56:12: 2025-06-13 10:56:12,144 INFO found existing fst: /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/en_tn_tagger.fst
+2025-06-13 10:56:12: 2025-06-13 10:56:12,144 WETEXT INFO                     /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/en_tn_verbalizer.fst
+2025-06-13 10:56:12: 2025-06-13 10:56:12,144 INFO                     /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/en_tn_verbalizer.fst
+2025-06-13 10:56:12: 2025-06-13 10:56:12,144 WETEXT INFO skip building fst for en_normalizer ...
+2025-06-13 10:56:12: 2025-06-13 10:56:12,144 INFO skip building fst for en_normalizer ...
+2025-06-13 10:56:14: INFO:     Started server process [1730402]
+2025-06-13 10:56:14: INFO:     Waiting for application startup.
+2025-06-13 10:56:14: INFO:     Application startup complete.
+2025-06-13 10:56:14: INFO:     Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)
+2025-06-13 10:56:59:   0%|          | 0/6 [00:00<?, ?it/s]
+2025-06-13 10:57:08: 2025-06-13 10:57:08,063 INFO synthesis text 好消息，好消息，湘潭路海悦华府科恩智能厨卫电器店优惠大酬宾，为了让周边社区的邻居朋友们买到实惠实用，性价比更高的电器智能产品，本店特别推出以下优惠活动：
+2025-06-13 10:57:18: 2025-06-13 10:57:18,632 INFO yield speech len 17.12, rtf 0.6173364330675
+2025-06-13 10:57:18:   0%|          | 0/6 [00:19<?, ?it/s]
+2025-06-13 10:57:18: huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+2025-06-13 10:57:18: To disable this warning, you can either:
+2025-06-13 10:57:18: 	- Avoid using `tokenizers` before the fork if possible
+2025-06-13 10:57:18: 	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+2025-06-13 10:58:04:   0%|          | 0/6 [00:00<?, ?it/s]
+2025-06-13 10:58:13: 2025-06-13 10:58:13,315 INFO synthesis text 好消息，好消息，湘潭路海悦华府科恩智能厨卫电器店优惠大酬宾，为了让周边社区的邻居朋友们买到实惠实用，性价比更高的电器智能产品，本店特别推出以下优惠活动：
+2025-06-13 10:58:22: 2025-06-13 10:58:22,121 INFO yield speech len 16.84, rtf 0.5229512614478974
+2025-06-13 10:58:22:   0%|          | 0/6 [00:17<?, ?it/s]
+2025-06-13 10:58:22: huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+2025-06-13 10:58:22: To disable this warning, you can either:
+2025-06-13 10:58:22: 	- Avoid using `tokenizers` before the fork if possible
+2025-06-13 10:58:22: 	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+2025-06-13 11:05:56: INFO:     Shutting down
+2025-06-13 11:05:56: INFO:     Waiting for application shutdown.
+2025-06-13 11:05:56: INFO:     Application shutdown complete.
+2025-06-13 11:05:56: INFO:     Finished server process [1730402]
+2025-06-13 11:06:04: /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/diffusers/models/lora.py:393: FutureWarning: `LoRACompatibleLinear` is deprecated and will be removed in version 1.0.0. Use of `LoRACompatibleLinear` is deprecated. Please switch to PEFT backend by installing PEFT: `pip install peft`.
+2025-06-13 11:06:04:   deprecate("LoRACompatibleLinear", "1.0.0", deprecation_message)
+2025-06-13 11:06:05: 2025-06-13 11:06:05,142 INFO input frame rate=25
+2025-06-13 11:06:05: Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+2025-06-13 11:06:05: Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+2025-06-13 11:06:06: [0;93m2025-06-13 11:06:06.299191522 [W:onnxruntime:, transformer_memcpy.cc:74 ApplyImpl] 8 Memcpy nodes are added to the graph main_graph for CUDAExecutionProvider. It might have negative impact on performance (including unable to run CUDA graph). Set session_options.log_severity_level=1 to see the detail logs before this message.[m
+2025-06-13 11:06:06: [0;93m2025-06-13 11:06:06.301830616 [W:onnxruntime:, session_state.cc:1166 VerifyEachNodeIsAssignedToAnEp] Some nodes were not assigned to the preferred execution providers which may or may not have an negative impact on performance. e.g. ORT explicitly assigns shape related ops to CPU to improve perf.[m
+2025-06-13 11:06:06: [0;93m2025-06-13 11:06:06.301843070 [W:onnxruntime:, session_state.cc:1168 VerifyEachNodeIsAssignedToAnEp] Rerunning with verbose output on a non-minimal build will show node assignments.[m
+2025-06-13 11:06:06: 2025-06-13 11:06:06,441 WETEXT INFO building fst for zh_normalizer ...
+2025-06-13 11:06:06: 2025-06-13 11:06:06,441 INFO building fst for zh_normalizer ...
+2025-06-13 11:06:28: 2025-06-13 11:06:28,044 WETEXT INFO done
+2025-06-13 11:06:28: 2025-06-13 11:06:28,044 INFO done
+2025-06-13 11:06:28: 2025-06-13 11:06:28,044 WETEXT INFO fst path: /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/zh_tn_tagger.fst
+2025-06-13 11:06:28: 2025-06-13 11:06:28,044 INFO fst path: /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/zh_tn_tagger.fst
+2025-06-13 11:06:28: 2025-06-13 11:06:28,044 WETEXT INFO           /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/zh_tn_verbalizer.fst
+2025-06-13 11:06:28: 2025-06-13 11:06:28,044 INFO           /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/zh_tn_verbalizer.fst
+2025-06-13 11:06:28: 2025-06-13 11:06:28,048 WETEXT INFO found existing fst: /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/en_tn_tagger.fst
+2025-06-13 11:06:28: 2025-06-13 11:06:28,048 INFO found existing fst: /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/en_tn_tagger.fst
+2025-06-13 11:06:28: 2025-06-13 11:06:28,048 WETEXT INFO                     /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/en_tn_verbalizer.fst
+2025-06-13 11:06:28: 2025-06-13 11:06:28,048 INFO                     /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/en_tn_verbalizer.fst
+2025-06-13 11:06:28: 2025-06-13 11:06:28,048 WETEXT INFO skip building fst for en_normalizer ...
+2025-06-13 11:06:28: 2025-06-13 11:06:28,048 INFO skip building fst for en_normalizer ...
+2025-06-13 11:06:30: INFO:     Started server process [1731306]
+2025-06-13 11:06:30: INFO:     Waiting for application startup.
+2025-06-13 11:06:30: INFO:     Application startup complete.
+2025-06-13 11:06:30: INFO:     Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)
+2025-06-13 11:08:47: /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/diffusers/models/lora.py:393: FutureWarning: `LoRACompatibleLinear` is deprecated and will be removed in version 1.0.0. Use of `LoRACompatibleLinear` is deprecated. Please switch to PEFT backend by installing PEFT: `pip install peft`.
+2025-06-13 11:08:47:   deprecate("LoRACompatibleLinear", "1.0.0", deprecation_message)
+2025-06-13 11:08:48: 2025-06-13 11:08:48,846 INFO input frame rate=25
+2025-06-13 11:08:49: Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+2025-06-13 11:08:49: Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+2025-06-13 11:08:50: [0;93m2025-06-13 11:08:50.008180301 [W:onnxruntime:, transformer_memcpy.cc:74 ApplyImpl] 8 Memcpy nodes are added to the graph main_graph for CUDAExecutionProvider. It might have negative impact on performance (including unable to run CUDA graph). Set session_options.log_severity_level=1 to see the detail logs before this message.[m
+2025-06-13 11:08:50: [0;93m2025-06-13 11:08:50.010767520 [W:onnxruntime:, session_state.cc:1166 VerifyEachNodeIsAssignedToAnEp] Some nodes were not assigned to the preferred execution providers which may or may not have an negative impact on performance. e.g. ORT explicitly assigns shape related ops to CPU to improve perf.[m
+2025-06-13 11:08:50: [0;93m2025-06-13 11:08:50.010780232 [W:onnxruntime:, session_state.cc:1168 VerifyEachNodeIsAssignedToAnEp] Rerunning with verbose output on a non-minimal build will show node assignments.[m
+2025-06-13 11:08:50: 2025-06-13 11:08:50,147 WETEXT INFO building fst for zh_normalizer ...
+2025-06-13 11:08:50: 2025-06-13 11:08:50,147 INFO building fst for zh_normalizer ...
+2025-06-13 11:09:11: 2025-06-13 11:09:11,473 WETEXT INFO done
+2025-06-13 11:09:11: 2025-06-13 11:09:11,473 INFO done
+2025-06-13 11:09:11: 2025-06-13 11:09:11,473 WETEXT INFO fst path: /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/zh_tn_tagger.fst
+2025-06-13 11:09:11: 2025-06-13 11:09:11,473 INFO fst path: /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/zh_tn_tagger.fst
+2025-06-13 11:09:11: 2025-06-13 11:09:11,473 WETEXT INFO           /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/zh_tn_verbalizer.fst
+2025-06-13 11:09:11: 2025-06-13 11:09:11,473 INFO           /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/zh_tn_verbalizer.fst
+2025-06-13 11:09:11: 2025-06-13 11:09:11,477 WETEXT INFO found existing fst: /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/en_tn_tagger.fst
+2025-06-13 11:09:11: 2025-06-13 11:09:11,477 INFO found existing fst: /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/en_tn_tagger.fst
+2025-06-13 11:09:11: 2025-06-13 11:09:11,477 WETEXT INFO                     /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/en_tn_verbalizer.fst
+2025-06-13 11:09:11: 2025-06-13 11:09:11,477 INFO                     /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/en_tn_verbalizer.fst
+2025-06-13 11:09:11: 2025-06-13 11:09:11,477 WETEXT INFO skip building fst for en_normalizer ...
+2025-06-13 11:09:11: 2025-06-13 11:09:11,477 INFO skip building fst for en_normalizer ...
+2025-06-13 11:09:13: INFO:     Started server process [1731687]
+2025-06-13 11:09:13: INFO:     Waiting for application startup.
+2025-06-13 11:09:13: INFO:     Application startup complete.
+2025-06-13 11:09:13: INFO:     Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)
+2025-06-13 11:11:33: /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/diffusers/models/lora.py:393: FutureWarning: `LoRACompatibleLinear` is deprecated and will be removed in version 1.0.0. Use of `LoRACompatibleLinear` is deprecated. Please switch to PEFT backend by installing PEFT: `pip install peft`.
+2025-06-13 11:11:33:   deprecate("LoRACompatibleLinear", "1.0.0", deprecation_message)
+2025-06-13 11:11:34: 2025-06-13 11:11:34,548 INFO input frame rate=25
+2025-06-13 11:11:35: Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+2025-06-13 11:11:35: Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+2025-06-13 11:11:35: [0;93m2025-06-13 11:11:35.726821011 [W:onnxruntime:, transformer_memcpy.cc:74 ApplyImpl] 8 Memcpy nodes are added to the graph main_graph for CUDAExecutionProvider. It might have negative impact on performance (including unable to run CUDA graph). Set session_options.log_severity_level=1 to see the detail logs before this message.[m
+2025-06-13 11:11:35: [0;93m2025-06-13 11:11:35.729368329 [W:onnxruntime:, session_state.cc:1166 VerifyEachNodeIsAssignedToAnEp] Some nodes were not assigned to the preferred execution providers which may or may not have an negative impact on performance. e.g. ORT explicitly assigns shape related ops to CPU to improve perf.[m
+2025-06-13 11:11:35: [0;93m2025-06-13 11:11:35.729380112 [W:onnxruntime:, session_state.cc:1168 VerifyEachNodeIsAssignedToAnEp] Rerunning with verbose output on a non-minimal build will show node assignments.[m
+2025-06-13 11:11:35: 2025-06-13 11:11:35,867 WETEXT INFO building fst for zh_normalizer ...
+2025-06-13 11:11:35: 2025-06-13 11:11:35,867 INFO building fst for zh_normalizer ...
+2025-06-13 11:11:57: 2025-06-13 11:11:57,267 WETEXT INFO done
+2025-06-13 11:11:57: 2025-06-13 11:11:57,267 INFO done
+2025-06-13 11:11:57: 2025-06-13 11:11:57,268 WETEXT INFO fst path: /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/zh_tn_tagger.fst
+2025-06-13 11:11:57: 2025-06-13 11:11:57,268 INFO fst path: /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/zh_tn_tagger.fst
+2025-06-13 11:11:57: 2025-06-13 11:11:57,268 WETEXT INFO           /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/zh_tn_verbalizer.fst
+2025-06-13 11:11:57: 2025-06-13 11:11:57,268 INFO           /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/zh_tn_verbalizer.fst
+2025-06-13 11:11:57: 2025-06-13 11:11:57,271 WETEXT INFO found existing fst: /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/en_tn_tagger.fst
+2025-06-13 11:11:57: 2025-06-13 11:11:57,271 INFO found existing fst: /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/en_tn_tagger.fst
+2025-06-13 11:11:57: 2025-06-13 11:11:57,272 WETEXT INFO                     /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/en_tn_verbalizer.fst
+2025-06-13 11:11:57: 2025-06-13 11:11:57,272 INFO                     /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/en_tn_verbalizer.fst
+2025-06-13 11:11:57: 2025-06-13 11:11:57,272 WETEXT INFO skip building fst for en_normalizer ...
+2025-06-13 11:11:57: 2025-06-13 11:11:57,272 INFO skip building fst for en_normalizer ...
+2025-06-13 11:11:59: INFO:     Started server process [1732135]
+2025-06-13 11:11:59: INFO:     Waiting for application startup.
+2025-06-13 11:11:59: INFO:     Application startup complete.
+2025-06-13 11:11:59: INFO:     Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)
+2025-06-13 11:14:06: /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/diffusers/models/lora.py:393: FutureWarning: `LoRACompatibleLinear` is deprecated and will be removed in version 1.0.0. Use of `LoRACompatibleLinear` is deprecated. Please switch to PEFT backend by installing PEFT: `pip install peft`.
+2025-06-13 11:14:06:   deprecate("LoRACompatibleLinear", "1.0.0", deprecation_message)
+2025-06-13 11:14:07: 2025-06-13 11:14:07,685 INFO input frame rate=25
+2025-06-13 11:14:08: Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+2025-06-13 11:14:08: Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+2025-06-13 11:14:08: [0;93m2025-06-13 11:14:08.861348572 [W:onnxruntime:, transformer_memcpy.cc:74 ApplyImpl] 8 Memcpy nodes are added to the graph main_graph for CUDAExecutionProvider. It might have negative impact on performance (including unable to run CUDA graph). Set session_options.log_severity_level=1 to see the detail logs before this message.[m
+2025-06-13 11:14:08: [0;93m2025-06-13 11:14:08.863997944 [W:onnxruntime:, session_state.cc:1166 VerifyEachNodeIsAssignedToAnEp] Some nodes were not assigned to the preferred execution providers which may or may not have an negative impact on performance. e.g. ORT explicitly assigns shape related ops to CPU to improve perf.[m
+2025-06-13 11:14:08: [0;93m2025-06-13 11:14:08.864009776 [W:onnxruntime:, session_state.cc:1168 VerifyEachNodeIsAssignedToAnEp] Rerunning with verbose output on a non-minimal build will show node assignments.[m
+2025-06-13 11:14:09: 2025-06-13 11:14:09,000 WETEXT INFO building fst for zh_normalizer ...
+2025-06-13 11:14:09: 2025-06-13 11:14:09,000 INFO building fst for zh_normalizer ...
+2025-06-13 11:14:30: 2025-06-13 11:14:30,438 WETEXT INFO done
+2025-06-13 11:14:30: 2025-06-13 11:14:30,438 INFO done
+2025-06-13 11:14:30: 2025-06-13 11:14:30,438 WETEXT INFO fst path: /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/zh_tn_tagger.fst
+2025-06-13 11:14:30: 2025-06-13 11:14:30,438 INFO fst path: /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/zh_tn_tagger.fst
+2025-06-13 11:14:30: 2025-06-13 11:14:30,438 WETEXT INFO           /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/zh_tn_verbalizer.fst
+2025-06-13 11:14:30: 2025-06-13 11:14:30,438 INFO           /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/zh_tn_verbalizer.fst
+2025-06-13 11:14:30: 2025-06-13 11:14:30,442 WETEXT INFO found existing fst: /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/en_tn_tagger.fst
+2025-06-13 11:14:30: 2025-06-13 11:14:30,442 INFO found existing fst: /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/en_tn_tagger.fst
+2025-06-13 11:14:30: 2025-06-13 11:14:30,442 WETEXT INFO                     /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/en_tn_verbalizer.fst
+2025-06-13 11:14:30: 2025-06-13 11:14:30,442 INFO                     /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/en_tn_verbalizer.fst
+2025-06-13 11:14:30: 2025-06-13 11:14:30,442 WETEXT INFO skip building fst for en_normalizer ...
+2025-06-13 11:14:30: 2025-06-13 11:14:30,442 INFO skip building fst for en_normalizer ...
+2025-06-13 11:14:32: INFO:     Started server process [1732605]
+2025-06-13 11:14:32: INFO:     Waiting for application startup.
+2025-06-13 11:14:32: INFO:     Application startup complete.
+2025-06-13 11:14:32: INFO:     Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)
+2025-06-13 11:14:40:   0%|          | 0/6 [00:00<?, ?it/s]
+2025-06-13 11:14:49: 2025-06-13 11:14:49,136 INFO synthesis text 好消息，好消息，湘潭路海悦华府科恩智能厨卫电器店优惠大酬宾，为了让周边社区的邻居朋友们买到实惠实用，性价比更高的电器智能产品，本店特别推出以下优惠活动：
+2025-06-13 11:14:58: 2025-06-13 11:14:58,489 INFO yield speech len 16.76, rtf 0.5580334077302481
+2025-06-13 11:14:58:   0%|          | 0/6 [00:18<?, ?it/s]
+2025-06-13 11:14:58: huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+2025-06-13 11:14:58: To disable this warning, you can either:
+2025-06-13 11:14:58: 	- Avoid using `tokenizers` before the fork if possible
+2025-06-13 11:14:58: 	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+2025-06-13 11:15:26: INFO:     Shutting down
+2025-06-13 11:15:26: INFO:     Waiting for application shutdown.
+2025-06-13 11:15:26: INFO:     Application shutdown complete.
+2025-06-13 11:15:26: INFO:     Finished server process [1732605]
+2025-06-13 11:15:33: /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/diffusers/models/lora.py:393: FutureWarning: `LoRACompatibleLinear` is deprecated and will be removed in version 1.0.0. Use of `LoRACompatibleLinear` is deprecated. Please switch to PEFT backend by installing PEFT: `pip install peft`.
+2025-06-13 11:15:33:   deprecate("LoRACompatibleLinear", "1.0.0", deprecation_message)
+2025-06-13 11:15:34: 2025-06-13 11:15:34,478 INFO input frame rate=25
+2025-06-13 11:15:34: Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+2025-06-13 11:15:35: Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+2025-06-13 11:15:35: [0;93m2025-06-13 11:15:35.636328927 [W:onnxruntime:, transformer_memcpy.cc:74 ApplyImpl] 8 Memcpy nodes are added to the graph main_graph for CUDAExecutionProvider. It might have negative impact on performance (including unable to run CUDA graph). Set session_options.log_severity_level=1 to see the detail logs before this message.[m
+2025-06-13 11:15:35: [0;93m2025-06-13 11:15:35.639003956 [W:onnxruntime:, session_state.cc:1166 VerifyEachNodeIsAssignedToAnEp] Some nodes were not assigned to the preferred execution providers which may or may not have an negative impact on performance. e.g. ORT explicitly assigns shape related ops to CPU to improve perf.[m
+2025-06-13 11:15:35: [0;93m2025-06-13 11:15:35.639017386 [W:onnxruntime:, session_state.cc:1168 VerifyEachNodeIsAssignedToAnEp] Rerunning with verbose output on a non-minimal build will show node assignments.[m
+2025-06-13 11:15:35: 2025-06-13 11:15:35,777 WETEXT INFO building fst for zh_normalizer ...
+2025-06-13 11:15:35: 2025-06-13 11:15:35,777 INFO building fst for zh_normalizer ...
+2025-06-13 11:15:57: 2025-06-13 11:15:57,209 WETEXT INFO done
+2025-06-13 11:15:57: 2025-06-13 11:15:57,209 INFO done
+2025-06-13 11:15:57: 2025-06-13 11:15:57,210 WETEXT INFO fst path: /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/zh_tn_tagger.fst
+2025-06-13 11:15:57: 2025-06-13 11:15:57,210 INFO fst path: /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/zh_tn_tagger.fst
+2025-06-13 11:15:57: 2025-06-13 11:15:57,210 WETEXT INFO           /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/zh_tn_verbalizer.fst
+2025-06-13 11:15:57: 2025-06-13 11:15:57,210 INFO           /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/zh_tn_verbalizer.fst
+2025-06-13 11:15:57: 2025-06-13 11:15:57,213 WETEXT INFO found existing fst: /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/en_tn_tagger.fst
+2025-06-13 11:15:57: 2025-06-13 11:15:57,213 INFO found existing fst: /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/en_tn_tagger.fst
+2025-06-13 11:15:57: 2025-06-13 11:15:57,213 WETEXT INFO                     /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/en_tn_verbalizer.fst
+2025-06-13 11:15:57: 2025-06-13 11:15:57,213 INFO                     /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/en_tn_verbalizer.fst
+2025-06-13 11:15:57: 2025-06-13 11:15:57,213 WETEXT INFO skip building fst for en_normalizer ...
+2025-06-13 11:15:57: 2025-06-13 11:15:57,213 INFO skip building fst for en_normalizer ...
+2025-06-13 11:15:59: INFO:     Started server process [1733226]
+2025-06-13 11:15:59: INFO:     Waiting for application startup.
+2025-06-13 11:15:59: INFO:     Application startup complete.
+2025-06-13 11:15:59: INFO:     Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)
+2025-06-13 11:17:36: /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/diffusers/models/lora.py:393: FutureWarning: `LoRACompatibleLinear` is deprecated and will be removed in version 1.0.0. Use of `LoRACompatibleLinear` is deprecated. Please switch to PEFT backend by installing PEFT: `pip install peft`.
+2025-06-13 11:17:36:   deprecate("LoRACompatibleLinear", "1.0.0", deprecation_message)
+2025-06-13 11:17:37: 2025-06-13 11:17:37,518 INFO input frame rate=25
+2025-06-13 11:17:38: Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+2025-06-13 11:17:38: Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+2025-06-13 11:17:38: [0;93m2025-06-13 11:17:38.676419963 [W:onnxruntime:, transformer_memcpy.cc:74 ApplyImpl] 8 Memcpy nodes are added to the graph main_graph for CUDAExecutionProvider. It might have negative impact on performance (including unable to run CUDA graph). Set session_options.log_severity_level=1 to see the detail logs before this message.[m
+2025-06-13 11:17:38: [0;93m2025-06-13 11:17:38.679056946 [W:onnxruntime:, session_state.cc:1166 VerifyEachNodeIsAssignedToAnEp] Some nodes were not assigned to the preferred execution providers which may or may not have an negative impact on performance. e.g. ORT explicitly assigns shape related ops to CPU to improve perf.[m
+2025-06-13 11:17:38: [0;93m2025-06-13 11:17:38.679069953 [W:onnxruntime:, session_state.cc:1168 VerifyEachNodeIsAssignedToAnEp] Rerunning with verbose output on a non-minimal build will show node assignments.[m
+2025-06-13 11:17:38: 2025-06-13 11:17:38,816 WETEXT INFO building fst for zh_normalizer ...
+2025-06-13 11:17:38: 2025-06-13 11:17:38,816 INFO building fst for zh_normalizer ...
+2025-06-13 11:18:00: 2025-06-13 11:18:00,217 WETEXT INFO done
+2025-06-13 11:18:00: 2025-06-13 11:18:00,217 INFO done
+2025-06-13 11:18:00: 2025-06-13 11:18:00,217 WETEXT INFO fst path: /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/zh_tn_tagger.fst
+2025-06-13 11:18:00: 2025-06-13 11:18:00,217 INFO fst path: /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/zh_tn_tagger.fst
+2025-06-13 11:18:00: 2025-06-13 11:18:00,217 WETEXT INFO           /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/zh_tn_verbalizer.fst
+2025-06-13 11:18:00: 2025-06-13 11:18:00,217 INFO           /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/zh_tn_verbalizer.fst
+2025-06-13 11:18:00: 2025-06-13 11:18:00,221 WETEXT INFO found existing fst: /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/en_tn_tagger.fst
+2025-06-13 11:18:00: 2025-06-13 11:18:00,221 INFO found existing fst: /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/en_tn_tagger.fst
+2025-06-13 11:18:00: 2025-06-13 11:18:00,221 WETEXT INFO                     /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/en_tn_verbalizer.fst
+2025-06-13 11:18:00: 2025-06-13 11:18:00,221 INFO                     /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/en_tn_verbalizer.fst
+2025-06-13 11:18:00: 2025-06-13 11:18:00,221 WETEXT INFO skip building fst for en_normalizer ...
+2025-06-13 11:18:00: 2025-06-13 11:18:00,221 INFO skip building fst for en_normalizer ...
+2025-06-13 11:18:02: INFO:     Started server process [1733691]
+2025-06-13 11:18:02: INFO:     Waiting for application startup.
+2025-06-13 11:18:02: INFO:     Application startup complete.
+2025-06-13 11:18:02: INFO:     Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)
+2025-06-13 11:18:13:   0%|          | 0/1 [00:00<?, ?it/s]
+2025-06-13 11:18:22: 2025-06-13 11:18:22,059 INFO synthesis text 好消息，好消息，湘潭路海悦华府科恩智能厨卫电器店优惠大酬宾，为了让周边社区的邻居朋友们买到实惠实用，性价比更高的电器智能产品，本店特别推出以下优惠活动：原价七百九十九的燃气灶。
+2025-06-13 11:18:31: 2025-06-13 11:18:31,421 INFO yield speech len 17.64, rtf 0.5307298398612578
+2025-06-13 11:18:31:   0%|          | 0/1 [00:18<?, ?it/s]
+2025-06-13 11:18:31:   0%|          | 0/2 [00:00<?, ?it/s]
+2025-06-13 11:18:31: 2025-06-13 11:18:31,641 INFO synthesis text 现优惠价只需四百九十九。原价八百九十九的燃气灶，现优惠价只需五百九十九。原价两千零九十九的油烟机，现优惠价只需一千三百九十九。
+2025-06-13 11:18:40: 2025-06-13 11:18:40,002 INFO yield speech len 15.36, rtf 0.5443547076235216
+2025-06-13 11:18:40:   0%|          | 0/2 [00:08<?, ?it/s]
+2025-06-13 11:18:40:   0%|          | 0/1 [00:00<?, ?it/s]
+2025-06-13 11:18:40: 2025-06-13 11:18:40,220 INFO synthesis text 网上卖一千零九十九的德国品牌艾栖智能锁，现优惠价只需五九九。原价一千五百九十九的自动下滑盖智能锁，现优惠价只需七九九。原价两千两百九十九的人脸识别远程遥控智能锁，现优惠价只需一千一百九十九。
+2025-06-13 11:18:51: 2025-06-13 11:18:51,378 INFO yield speech len 20.16, rtf 0.5534575690352728
+2025-06-13 11:18:51:   0%|          | 0/1 [00:11<?, ?it/s]
+2025-06-13 11:18:51:   0%|          | 0/1 [00:00<?, ?it/s]2025-06-13 11:18:51,405 WARNING synthesis text 原价幺九九的美的落地扇，现优惠价只需幺五九。 too short than prompt text 六盐糖水菠萝冰西瓜冰西瓜椰椰杨枝甘露奶茶烧金草橘子凉面寿司火鸡面布丁双皮奶海底椰雪梨糕欢迎来品尝, this may lead to bad performance
+2025-06-13 11:18:51: 2025-06-13 11:18:51,585 INFO synthesis text 原价幺九九的美的落地扇，现优惠价只需幺五九。
+2025-06-13 11:18:55: 2025-06-13 11:18:55,238 INFO yield speech len 6.44, rtf 0.5672397820845894
+2025-06-13 11:18:55:   0%|          | 0/1 [00:03<?, ?it/s]
+2025-06-13 11:18:55:   0%|          | 0/1 [00:00<?, ?it/s]
+2025-06-13 11:18:55: 2025-06-13 11:18:55,455 INFO synthesis text 本店所有产品均可参加以旧换新购买活动：旧燃气灶可以抵扣五十旧热水器可以抵扣幺零零旧油烟机可以抵扣二零零旧机械锁可以抵扣五十旧智能锁可以抵扣幺零零货真价实，所有产品均是原装正品。
+2025-06-13 11:19:05: 2025-06-13 11:19:05,040 INFO yield speech len 17.6, rtf 0.5445783923972737
+2025-06-13 11:19:05:   0%|          | 0/1 [00:09<?, ?it/s]
+2025-06-13 11:19:05:   0%|          | 0/1 [00:00<?, ?it/s]
+2025-06-13 11:19:05: 2025-06-13 11:19:05,258 INFO synthesis text 享受国家三包政策，网上做到的我们一样能做到，网上做不到的我们也一样能做得到，所以您不用怕买贵，更不用担心花冤枉钱，店面就在您的家门口，安装方便，服务快捷，售后更加有保障，让您买得放心，用得更安心！
+2025-06-13 11:19:15: 2025-06-13 11:19:15,205 INFO yield speech len 18.16, rtf 0.5477620641565533
+2025-06-13 11:19:15:   0%|          | 0/1 [00:10<?, ?it/s]
+2025-06-13 11:19:15:   0%|          | 0/1 [00:00<?, ?it/s]2025-06-13 11:19:15,230 WARNING synthesis text 活动地址湘潭路海悦华府北门都市甜心蛋糕店左边。 too short than prompt text 六盐糖水菠萝冰西瓜冰西瓜椰椰杨枝甘露奶茶烧金草橘子凉面寿司火鸡面布丁双皮奶海底椰雪梨糕欢迎来品尝, this may lead to bad performance
+2025-06-13 11:19:15: 2025-06-13 11:19:15,411 INFO synthesis text 活动地址湘潭路海悦华府北门都市甜心蛋糕店左边。
+2025-06-13 11:19:18: 2025-06-13 11:19:18,480 INFO yield speech len 5.16, rtf 0.5949180717616118
+2025-06-13 11:19:18:   0%|          | 0/1 [00:03<?, ?it/s]
+2025-06-13 11:19:18: huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+2025-06-13 11:19:18: To disable this warning, you can either:
+2025-06-13 11:19:18: 	- Avoid using `tokenizers` before the fork if possible
+2025-06-13 11:19:18: 	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+2025-06-13 11:22:21:   0%|          | 0/1 [00:00<?, ?it/s]
+2025-06-13 11:22:30: 2025-06-13 11:22:30,256 INFO synthesis text 好消息，好消息，湘潭路海悦华府科恩智能厨卫电器店优惠大酬宾，为了让周边社区的邻居朋友们买到实惠实用，性价比更高的电器智能产品，本店特别推出以下优惠活动：原价七百九十九的燃气灶。
+2025-06-13 11:22:39: 2025-06-13 11:22:39,769 INFO yield speech len 17.28, rtf 0.5505618121888902
+2025-06-13 11:22:39:   0%|          | 0/1 [00:17<?, ?it/s]
+2025-06-13 11:22:39:   0%|          | 0/2 [00:00<?, ?it/s]
+2025-06-13 11:22:40: 2025-06-13 11:22:40,045 INFO synthesis text 现优惠价只需四百九十九。原价八百九十九的燃气灶，现优惠价只需五百九十九。原价两千零九十九的油烟机，现优惠价只需一千三百九十九。
+2025-06-13 11:22:48: 2025-06-13 11:22:48,583 INFO yield speech len 14.48, rtf 0.5896583611135324
+2025-06-13 11:22:48:   0%|          | 0/2 [00:08<?, ?it/s]
+2025-06-13 11:22:48:   0%|          | 0/1 [00:00<?, ?it/s]
+2025-06-13 11:22:48: 2025-06-13 11:22:48,855 INFO synthesis text 网上卖一千零九十九的德国品牌艾栖智能锁，现优惠价只需五九九。原价一千五百九十九的自动下滑盖智能锁，现优惠价只需七九九。原价两千两百九十九的人脸识别远程遥控智能锁，现优惠价只需一千一百九十九。
+2025-06-13 11:23:03: 2025-06-13 11:23:03,668 INFO yield speech len 25.64, rtf 0.577742633135196
+2025-06-13 11:23:03:   0%|          | 0/1 [00:15<?, ?it/s]
+2025-06-13 11:23:03:   0%|          | 0/1 [00:00<?, ?it/s]
+2025-06-13 11:23:03: 2025-06-13 11:23:03,695 WARNING synthesis text 原价幺九九的美的落地扇，现优惠价只需幺五九。 too short than prompt text 五二零活动饮料免费送欢迎来拿五二零活动特色饮料免费送欢迎来拿本店有街头牛排辣子鸡椒马鸡欢迎来品尝, this may lead to bad performance
+2025-06-13 11:23:03: 2025-06-13 11:23:03,929 INFO synthesis text 原价幺九九的美的落地扇，现优惠价只需幺五九。
+2025-06-13 11:23:08: 2025-06-13 11:23:08,269 INFO yield speech len 7.04, rtf 0.6164560602469877
+2025-06-13 11:23:08:   0%|          | 0/1 [00:04<?, ?it/s]
+2025-06-13 11:23:08:   0%|          | 0/1 [00:00<?, ?it/s]
+2025-06-13 11:23:08: 2025-06-13 11:23:08,539 INFO synthesis text 本店所有产品均可参加以旧换新购买活动：旧燃气灶可以抵扣五十旧热水器可以抵扣幺零零旧油烟机可以抵扣二零零旧机械锁可以抵扣五十旧智能锁可以抵扣幺零零货真价实，所有产品均是原装正品。
+2025-06-13 11:23:21: 2025-06-13 11:23:21,504 INFO yield speech len 22.36, rtf 0.5798274054723477
+2025-06-13 11:23:21:   0%|          | 0/1 [00:13<?, ?it/s]
+2025-06-13 11:23:21:   0%|          | 0/1 [00:00<?, ?it/s]
+2025-06-13 11:23:21: 2025-06-13 11:23:21,776 INFO synthesis text 享受国家三包政策，网上做到的我们一样能做到，网上做不到的我们也一样能做得到，所以您不用怕买贵，更不用担心花冤枉钱，店面就在您的家门口，安装方便，服务快捷，售后更加有保障，让您买得放心，用得更安心！
+2025-06-13 11:23:36: 2025-06-13 11:23:36,397 INFO yield speech len 26.72, rtf 0.5471724325311398
+2025-06-13 11:23:36:   0%|          | 0/1 [00:14<?, ?it/s]
+2025-06-13 11:23:36:   0%|          | 0/1 [00:00<?, ?it/s]
+2025-06-13 11:23:36: 2025-06-13 11:23:36,423 WARNING synthesis text 活动地址湘潭路海悦华府北门都市甜心蛋糕店左边。 too short than prompt text 五二零活动饮料免费送欢迎来拿五二零活动特色饮料免费送欢迎来拿本店有街头牛排辣子鸡椒马鸡欢迎来品尝, this may lead to bad performance
+2025-06-13 11:23:36: 2025-06-13 11:23:36,657 INFO synthesis text 活动地址湘潭路海悦华府北门都市甜心蛋糕店左边。
+2025-06-13 11:23:40: 2025-06-13 11:23:40,995 INFO yield speech len 7.04, rtf 0.6160970438610424
+2025-06-13 11:23:40:   0%|          | 0/1 [00:04<?, ?it/s]
+2025-06-13 11:23:41: huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+2025-06-13 11:23:41: To disable this warning, you can either:
+2025-06-13 11:23:41: 	- Avoid using `tokenizers` before the fork if possible
+2025-06-13 11:23:41: 	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+2025-06-13 11:27:40: INFO:     Shutting down
+2025-06-13 11:27:40: INFO:     Waiting for application shutdown.
+2025-06-13 11:27:40: INFO:     Application shutdown complete.
+2025-06-13 11:27:40: INFO:     Finished server process [1733691]
+2025-06-13 11:27:53: /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/diffusers/models/lora.py:393: FutureWarning: `LoRACompatibleLinear` is deprecated and will be removed in version 1.0.0. Use of `LoRACompatibleLinear` is deprecated. Please switch to PEFT backend by installing PEFT: `pip install peft`.
+2025-06-13 11:27:53:   deprecate("LoRACompatibleLinear", "1.0.0", deprecation_message)
+2025-06-13 11:27:53: 2025-06-13 11:27:53,946 INFO input frame rate=25
+2025-06-13 11:27:54: Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+2025-06-13 11:27:54: Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+2025-06-13 11:27:55: [0;93m2025-06-13 11:27:55.110331988 [W:onnxruntime:, transformer_memcpy.cc:74 ApplyImpl] 8 Memcpy nodes are added to the graph main_graph for CUDAExecutionProvider. It might have negative impact on performance (including unable to run CUDA graph). Set session_options.log_severity_level=1 to see the detail logs before this message.[m
+2025-06-13 11:27:55: [0;93m2025-06-13 11:27:55.112896114 [W:onnxruntime:, session_state.cc:1166 VerifyEachNodeIsAssignedToAnEp] Some nodes were not assigned to the preferred execution providers which may or may not have an negative impact on performance. e.g. ORT explicitly assigns shape related ops to CPU to improve perf.[m
+2025-06-13 11:27:55: [0;93m2025-06-13 11:27:55.112907410 [W:onnxruntime:, session_state.cc:1168 VerifyEachNodeIsAssignedToAnEp] Rerunning with verbose output on a non-minimal build will show node assignments.[m
+2025-06-13 11:27:55: 2025-06-13 11:27:55,249 WETEXT INFO building fst for zh_normalizer ...
+2025-06-13 11:27:55: 2025-06-13 11:27:55,249 INFO building fst for zh_normalizer ...
+2025-06-13 11:28:16: 2025-06-13 11:28:16,756 WETEXT INFO done
+2025-06-13 11:28:16: 2025-06-13 11:28:16,756 INFO done
+2025-06-13 11:28:16: 2025-06-13 11:28:16,756 WETEXT INFO fst path: /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/zh_tn_tagger.fst
+2025-06-13 11:28:16: 2025-06-13 11:28:16,756 INFO fst path: /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/zh_tn_tagger.fst
+2025-06-13 11:28:16: 2025-06-13 11:28:16,756 WETEXT INFO           /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/zh_tn_verbalizer.fst
+2025-06-13 11:28:16: 2025-06-13 11:28:16,756 INFO           /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/zh_tn_verbalizer.fst
+2025-06-13 11:28:16: 2025-06-13 11:28:16,760 WETEXT INFO found existing fst: /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/en_tn_tagger.fst
+2025-06-13 11:28:16: 2025-06-13 11:28:16,760 INFO found existing fst: /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/en_tn_tagger.fst
+2025-06-13 11:28:16: 2025-06-13 11:28:16,760 WETEXT INFO                     /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/en_tn_verbalizer.fst
+2025-06-13 11:28:16: 2025-06-13 11:28:16,760 INFO                     /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/en_tn_verbalizer.fst
+2025-06-13 11:28:16: 2025-06-13 11:28:16,760 WETEXT INFO skip building fst for en_normalizer ...
+2025-06-13 11:28:16: 2025-06-13 11:28:16,760 INFO skip building fst for en_normalizer ...
+2025-06-13 11:28:19: INFO:     Started server process [1735271]
+2025-06-13 11:28:19: INFO:     Waiting for application startup.
+2025-06-13 11:28:19: INFO:     Application startup complete.
+2025-06-13 11:28:19: INFO:     Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)
+2025-06-13 11:29:27:   0%|          | 0/1 [00:00<?, ?it/s]
+2025-06-13 11:29:35: 2025-06-13 11:29:35,945 INFO synthesis text 好消息，好消息，湘潭路海悦华府科恩智能厨卫电器店优惠大酬宾，为了让周边社区的邻居朋友们买到实惠实用，性价比更高的电器智能产品，本店特别推出以下优惠活动：原价七百九十九的燃气灶。
+2025-06-13 11:29:46: 2025-06-13 11:29:46,298 INFO yield speech len 18.4, rtf 0.5626773834228516
+2025-06-13 11:29:46:   0%|          | 0/1 [00:19<?, ?it/s]
+2025-06-13 11:29:46:   0%|          | 0/2 [00:00<?, ?it/s]
+2025-06-13 11:29:46: 2025-06-13 11:29:46,571 INFO synthesis text 现优惠价只需四百九十九。原价八百九十九的燃气灶，现优惠价只需五百九十九。原价两千零九十九的油烟机，现优惠价只需一千三百九十九。
+2025-06-13 11:29:54: 2025-06-13 11:29:54,810 INFO yield speech len 14.0, rtf 0.5885392086846488
+2025-06-13 11:29:54:   0%|          | 0/2 [00:08<?, ?it/s]
+2025-06-13 11:29:54:   0%|          | 0/1 [00:00<?, ?it/s]
+2025-06-13 11:29:55: 2025-06-13 11:29:55,084 INFO synthesis text 网上卖一千零九十九的德国品牌艾栖智能锁，现优惠价只需五九九。原价一千五百九十九的自动下滑盖智能锁，现优惠价只需七九九。原价两千两百九十九的人脸识别远程遥控智能锁，现优惠价只需一千一百九十九。
+2025-06-13 11:30:07: 2025-06-13 11:30:07,350 INFO yield speech len 20.92, rtf 0.5863611260518061
+2025-06-13 11:30:07:   0%|          | 0/1 [00:12<?, ?it/s]
+2025-06-13 11:30:07:   0%|          | 0/1 [00:00<?, ?it/s]
+2025-06-13 11:30:07: 2025-06-13 11:30:07,376 WARNING synthesis text 原价幺九九的美的落地扇，现优惠价只需幺五九。 too short than prompt text 五二零活动饮料免费送欢迎来拿五二零活动特色饮料免费送欢迎来拿本店有街头牛排辣子鸡椒马鸡欢迎来品尝, this may lead to bad performance
+2025-06-13 11:30:07: 2025-06-13 11:30:07,612 INFO synthesis text 原价幺九九的美的落地扇，现优惠价只需幺五九。
+2025-06-13 11:30:12: 2025-06-13 11:30:12,628 INFO yield speech len 7.88, rtf 0.6365692857558353
+2025-06-13 11:30:12:   0%|          | 0/1 [00:05<?, ?it/s]
+2025-06-13 11:30:12:   0%|          | 0/1 [00:00<?, ?it/s]
+2025-06-13 11:30:12: 2025-06-13 11:30:12,900 INFO synthesis text 本店所有产品均可参加以旧换新购买活动：旧燃气灶可以抵扣五十旧热水器可以抵扣幺零零旧油烟机可以抵扣二零零旧机械锁可以抵扣五十旧智能锁可以抵扣幺零零货真价实，所有产品均是原装正品。
+2025-06-13 11:30:25: 2025-06-13 11:30:25,416 INFO yield speech len 23.36, rtf 0.5358000834510751
+2025-06-13 11:30:25:   0%|          | 0/1 [00:12<?, ?it/s]
+2025-06-13 11:30:25:   0%|          | 0/1 [00:00<?, ?it/s]
+2025-06-13 11:30:25: 2025-06-13 11:30:25,691 INFO synthesis text 享受国家三包政策，网上做到的我们一样能做到，网上做不到的我们也一样能做得到，所以您不用怕买贵，更不用担心花冤枉钱，店面就在您的家门口，安装方便，服务快捷，售后更加有保障，让您买得放心，用得更安心！
+2025-06-13 11:30:38: 2025-06-13 11:30:38,216 INFO yield speech len 21.68, rtf 0.5777112892193108
+2025-06-13 11:30:38:   0%|          | 0/1 [00:12<?, ?it/s]
+2025-06-13 11:30:38:   0%|          | 0/1 [00:00<?, ?it/s]
+2025-06-13 11:30:38: 2025-06-13 11:30:38,241 WARNING synthesis text 活动地址湘潭路海悦华府北门都市甜心蛋糕店左边。 too short than prompt text 五二零活动饮料免费送欢迎来拿五二零活动特色饮料免费送欢迎来拿本店有街头牛排辣子鸡椒马鸡欢迎来品尝, this may lead to bad performance
+2025-06-13 11:30:38: 2025-06-13 11:30:38,479 INFO synthesis text 活动地址湘潭路海悦华府北门都市甜心蛋糕店左边。
+2025-06-13 11:30:43: 2025-06-13 11:30:43,229 INFO yield speech len 7.24, rtf 0.6561760085722359
+2025-06-13 11:30:43:   0%|          | 0/1 [00:04<?, ?it/s]
+2025-06-13 11:30:43: huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+2025-06-13 11:30:43: To disable this warning, you can either:
+2025-06-13 11:30:43: 	- Avoid using `tokenizers` before the fork if possible
+2025-06-13 11:30:43: 	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+2025-06-13 11:36:57: WARNING:  Invalid HTTP request received.
+2025-06-13 11:36:58: WARNING:  Invalid HTTP request received.
+2025-06-13 11:37:51: INFO:     Shutting down
+2025-06-13 11:37:51: INFO:     Waiting for application shutdown.
+2025-06-13 11:37:51: INFO:     Application shutdown complete.
+2025-06-13 11:37:51: INFO:     Finished server process [1735271]
+2025-06-13 11:37:58: /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/diffusers/models/lora.py:393: FutureWarning: `LoRACompatibleLinear` is deprecated and will be removed in version 1.0.0. Use of `LoRACompatibleLinear` is deprecated. Please switch to PEFT backend by installing PEFT: `pip install peft`.
+2025-06-13 11:37:58:   deprecate("LoRACompatibleLinear", "1.0.0", deprecation_message)
+2025-06-13 11:37:59: 2025-06-13 11:37:59,752 INFO input frame rate=25
+2025-06-13 11:38:00: Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+2025-06-13 11:38:00: Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+2025-06-13 11:38:00: [0;93m2025-06-13 11:38:00.915563458 [W:onnxruntime:, transformer_memcpy.cc:74 ApplyImpl] 8 Memcpy nodes are added to the graph main_graph for CUDAExecutionProvider. It might have negative impact on performance (including unable to run CUDA graph). Set session_options.log_severity_level=1 to see the detail logs before this message.[m
+2025-06-13 11:38:00: [0;93m2025-06-13 11:38:00.918173782 [W:onnxruntime:, session_state.cc:1166 VerifyEachNodeIsAssignedToAnEp] Some nodes were not assigned to the preferred execution providers which may or may not have an negative impact on performance. e.g. ORT explicitly assigns shape related ops to CPU to improve perf.[m
+2025-06-13 11:38:00: [0;93m2025-06-13 11:38:00.918186497 [W:onnxruntime:, session_state.cc:1168 VerifyEachNodeIsAssignedToAnEp] Rerunning with verbose output on a non-minimal build will show node assignments.[m
+2025-06-13 11:38:01: 2025-06-13 11:38:01,057 WETEXT INFO building fst for zh_normalizer ...
+2025-06-13 11:38:01: 2025-06-13 11:38:01,057 INFO building fst for zh_normalizer ...
+2025-06-13 11:38:23: 2025-06-13 11:38:23,189 WETEXT INFO done
+2025-06-13 11:38:23: 2025-06-13 11:38:23,189 INFO done
+2025-06-13 11:38:23: 2025-06-13 11:38:23,190 WETEXT INFO fst path: /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/zh_tn_tagger.fst
+2025-06-13 11:38:23: 2025-06-13 11:38:23,190 INFO fst path: /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/zh_tn_tagger.fst
+2025-06-13 11:38:23: 2025-06-13 11:38:23,190 WETEXT INFO           /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/zh_tn_verbalizer.fst
+2025-06-13 11:38:23: 2025-06-13 11:38:23,190 INFO           /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/zh_tn_verbalizer.fst
+2025-06-13 11:38:23: 2025-06-13 11:38:23,193 WETEXT INFO found existing fst: /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/en_tn_tagger.fst
+2025-06-13 11:38:23: 2025-06-13 11:38:23,193 INFO found existing fst: /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/en_tn_tagger.fst
+2025-06-13 11:38:23: 2025-06-13 11:38:23,193 WETEXT INFO                     /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/en_tn_verbalizer.fst
+2025-06-13 11:38:23: 2025-06-13 11:38:23,193 INFO                     /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/en_tn_verbalizer.fst
+2025-06-13 11:38:23: 2025-06-13 11:38:23,193 WETEXT INFO skip building fst for en_normalizer ...
+2025-06-13 11:38:23: 2025-06-13 11:38:23,193 INFO skip building fst for en_normalizer ...
+2025-06-13 11:38:25: INFO:     Started server process [1736142]
+2025-06-13 11:38:25: INFO:     Waiting for application startup.
+2025-06-13 11:38:25: INFO:     Application startup complete.
+2025-06-13 11:38:25: INFO:     Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)
+2025-06-13 11:38:45:   0%|          | 0/1 [00:00<?, ?it/s]
+2025-06-13 11:38:54: 2025-06-13 11:38:54,038 INFO synthesis text 好消息，好消息，湘潭路海悦华府科恩智能厨卫电器店优惠大酬宾，为了让周边社区的邻居朋友们买到实惠实用。
+2025-06-13 11:39:00: 2025-06-13 11:39:00,245 INFO yield speech len 10.64, rtf 0.5833359141098825
+2025-06-13 11:39:00:   0%|          | 0/1 [00:14<?, ?it/s]
+2025-06-13 11:39:00:   0%|          | 0/1 [00:00<?, ?it/s]
+2025-06-13 11:39:00: 2025-06-13 11:39:00,491 INFO synthesis text 性价比更高的电器智能产品，本店特别推出以下优惠活动：原价七百九十九的燃气灶。
+2025-06-13 11:39:06: 2025-06-13 11:39:06,078 INFO yield speech len 9.12, rtf 0.6125692212790774
+2025-06-13 11:39:06:   0%|          | 0/1 [00:05<?, ?it/s]
+2025-06-13 11:39:06:   0%|          | 0/1 [00:00<?, ?it/s]
+2025-06-13 11:39:06: 2025-06-13 11:39:06,324 INFO synthesis text 现优惠价只需四百九十九。原价八百九十九的燃气灶，现优惠价只需五百九十九。原价两千零九十九的油烟机。
+2025-06-13 11:39:12: 2025-06-13 11:39:12,957 INFO yield speech len 11.2, rtf 0.592219488961356
+2025-06-13 11:39:12:   0%|          | 0/1 [00:06<?, ?it/s]
+2025-06-13 11:39:12:   0%|          | 0/1 [00:00<?, ?it/s]
+2025-06-13 11:39:13: 2025-06-13 11:39:13,205 INFO synthesis text 现优惠价只需一千三百九十九。原价一千六百九十九的十二升燃气热水器，现优惠价只需九九九。
+2025-06-13 11:39:19: 2025-06-13 11:39:19,916 INFO yield speech len 11.36, rtf 0.5908115229136508
+2025-06-13 11:39:19:   0%|          | 0/1 [00:06<?, ?it/s]
+2025-06-13 11:39:19:   0%|          | 0/1 [00:00<?, ?it/s]
+2025-06-13 11:39:20: 2025-06-13 11:39:20,166 INFO synthesis text 网上卖一千零九十九的德国品牌艾栖智能锁，现优惠价只需五九九。原价一千五百九十九的自动下滑盖智能锁。
+2025-06-13 11:39:26: 2025-06-13 11:39:26,870 INFO yield speech len 11.36, rtf 0.5901342336560639
+2025-06-13 11:39:26:   0%|          | 0/1 [00:06<?, ?it/s]
+2025-06-13 11:39:26:   0%|          | 0/1 [00:00<?, ?it/s]
+2025-06-13 11:39:27: 2025-06-13 11:39:27,119 INFO synthesis text 现优惠价只需七九九。原价两千两百九十九的人脸识别远程遥控智能锁，现优惠价只需一千一百九十九。
+2025-06-13 11:39:33: 2025-06-13 11:39:33,732 INFO yield speech len 11.24, rtf 0.5882657931792779
+2025-06-13 11:39:33:   0%|          | 0/1 [00:06<?, ?it/s]
+2025-06-13 11:39:33:   0%|          | 0/1 [00:00<?, ?it/s]
+2025-06-13 11:39:33: 2025-06-13 11:39:33,759 WARNING synthesis text 原价幺九九的美的落地扇，现优惠价只需幺五九。 too short than prompt text 第一盟同庄大世界八村镇店六月一日到三日盛大开业公司主营一到十八岁同庄同学内涉豪华儿童游乐园公宝宝免费玩耍第一盟同庄大世界福利多多快来选购吧, this may lead to bad performance
+2025-06-13 11:39:33: 2025-06-13 11:39:33,976 INFO synthesis text 原价幺九九的美的落地扇，现优惠价只需幺五九。
+2025-06-13 11:39:37: 2025-06-13 11:39:37,576 INFO yield speech len 5.84, rtf 0.6164498933374065
+2025-06-13 11:39:37:   0%|          | 0/1 [00:03<?, ?it/s]
+2025-06-13 11:39:37:   0%|          | 0/1 [00:00<?, ?it/s]
+2025-06-13 11:39:37: 2025-06-13 11:39:37,823 INFO synthesis text 本店所有产品均可参加以旧换新购买活动：旧燃气灶可以抵扣五十旧热水器可以抵扣幺零零旧油烟机可以。
+2025-06-13 11:39:44: 2025-06-13 11:39:44,061 INFO yield speech len 10.56, rtf 0.5906726600545825
+2025-06-13 11:39:44:   0%|          | 0/1 [00:06<?, ?it/s]
+2025-06-13 11:39:44:   0%|          | 0/1 [00:00<?, ?it/s]
+2025-06-13 11:39:44: 2025-06-13 11:39:44,309 INFO synthesis text 抵扣二零零旧机械锁可以抵扣五十旧智能锁可以抵扣幺零零货真价实，所有产品均是原装正品。
+2025-06-13 11:39:50: 2025-06-13 11:39:50,453 INFO yield speech len 10.28, rtf 0.5976888920082657
+2025-06-13 11:39:50:   0%|          | 0/1 [00:06<?, ?it/s]
+2025-06-13 11:39:50:   0%|          | 0/1 [00:00<?, ?it/s]
+2025-06-13 11:39:50: 2025-06-13 11:39:50,699 INFO synthesis text 享受国家三包政策，网上做到的我们一样能做到，网上做不到的我们也一样能做得到，所以您不用怕买贵。
+2025-06-13 11:39:56: 2025-06-13 11:39:56,347 INFO yield speech len 9.24, rtf 0.6112918967292422
+2025-06-13 11:39:56:   0%|          | 0/1 [00:05<?, ?it/s]
+2025-06-13 11:39:56:   0%|          | 0/1 [00:00<?, ?it/s]
+2025-06-13 11:39:56: 2025-06-13 11:39:56,593 INFO synthesis text 更不用担心花冤枉钱，店面就在您的家门口，安装方便，服务快捷，售后更加有保障，让您买得放心。
+2025-06-13 11:40:02: 2025-06-13 11:40:02,718 INFO yield speech len 10.2, rtf 0.6004381413553276
+2025-06-13 11:40:02:   0%|          | 0/1 [00:06<?, ?it/s]
+2025-06-13 11:40:02:   0%|          | 0/1 [00:00<?, ?it/s]
+2025-06-13 11:40:02: 2025-06-13 11:40:02,744 WARNING synthesis text 用得更安心！活动地址湘潭路海悦华府北门都市甜心蛋糕店左边。 too short than prompt text 第一盟同庄大世界八村镇店六月一日到三日盛大开业公司主营一到十八岁同庄同学内涉豪华儿童游乐园公宝宝免费玩耍第一盟同庄大世界福利多多快来选购吧, this may lead to bad performance
+2025-06-13 11:40:02: 2025-06-13 11:40:02,962 INFO synthesis text 用得更安心！活动地址湘潭路海悦华府北门都市甜心蛋糕店左边。
+2025-06-13 11:40:07: 2025-06-13 11:40:07,508 INFO yield speech len 7.6, rtf 0.5982321187069541
+2025-06-13 11:40:07:   0%|          | 0/1 [00:04<?, ?it/s]
+2025-06-13 11:40:07: huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+2025-06-13 11:40:07: To disable this warning, you can either:
+2025-06-13 11:40:07: 	- Avoid using `tokenizers` before the fork if possible
+2025-06-13 11:40:07: 	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+2025-06-13 11:44:05:   0%|          | 0/1 [00:00<?, ?it/s]
+2025-06-13 11:44:05: 2025-06-13 11:44:05,934 INFO synthesis text 好消息，好消息，湘潭路海悦华府科恩智能厨卫电器店优惠大酬宾，为了让周边社区的邻居朋友们买到实惠实用。
+2025-06-13 11:44:12: 2025-06-13 11:44:12,439 INFO yield speech len 11.76, rtf 0.5531572565740469
+2025-06-13 11:44:12:   0%|          | 0/1 [00:06<?, ?it/s]
+2025-06-13 11:44:12:   0%|          | 0/1 [00:00<?, ?it/s]
+2025-06-13 11:44:12: 2025-06-13 11:44:12,687 INFO synthesis text 性价比更高的电器智能产品，本店特别推出以下优惠活动：原价七百九十九的燃气灶，现优惠价只需四百九十九。
+2025-06-13 11:44:19: 2025-06-13 11:44:19,415 INFO yield speech len 11.4, rtf 0.5901039483254416
+2025-06-13 11:44:19:   0%|          | 0/1 [00:06<?, ?it/s]
+2025-06-13 11:44:19:   0%|          | 0/1 [00:00<?, ?it/s]
+2025-06-13 11:44:19: 2025-06-13 11:44:19,661 INFO synthesis text 原价八百九十九的燃气灶，现优惠价只需五百九十九。原价二千零九十九的油烟机。
+2025-06-13 11:44:24: 2025-06-13 11:44:24,919 INFO yield speech len 8.44, rtf 0.6230929451531144
+2025-06-13 11:44:24:   0%|          | 0/1 [00:05<?, ?it/s]
+2025-06-13 11:44:24:   0%|          | 0/1 [00:00<?, ?it/s]
+2025-06-13 11:44:25: 2025-06-13 11:44:25,166 INFO synthesis text 现优惠价只需一千三百九十九。原价一千六百九十九的十二升燃气热水器，现优惠价只需九百九十九。
+2025-06-13 11:44:31: 2025-06-13 11:44:31,935 INFO yield speech len 12.24, rtf 0.5530311391244527
+2025-06-13 11:44:31:   0%|          | 0/1 [00:06<?, ?it/s]
+2025-06-13 11:44:31:   0%|          | 0/1 [00:00<?, ?it/s]
+2025-06-13 11:44:31: 2025-06-13 11:44:31,961 WARNING synthesis text 网上卖一千零九十九的德国品牌艾栖智能锁，现优惠价只需五百九十九。 too short than prompt text 第一盟同庄大世界八村镇店六月一日到三日盛大开业公司主营一到十八岁同庄同学内涉豪华儿童游乐园公宝宝免费玩耍第一盟同庄大世界福利多多快来选购吧, this may lead to bad performance
+2025-06-13 11:44:32: 2025-06-13 11:44:32,178 INFO synthesis text 网上卖一千零九十九的德国品牌艾栖智能锁，现优惠价只需五百九十九。
+2025-06-13 11:44:36: 2025-06-13 11:44:36,618 INFO yield speech len 7.28, rtf 0.6098694853730254
+2025-06-13 11:44:36:   0%|          | 0/1 [00:04<?, ?it/s]
+2025-06-13 11:44:36:   0%|          | 0/1 [00:00<?, ?it/s]
+2025-06-13 11:44:36: 2025-06-13 11:44:36,643 WARNING synthesis text 原价一千五百九十九的自动下滑盖智能锁，现优惠价只需七百九十九。 too short than prompt text 第一盟同庄大世界八村镇店六月一日到三日盛大开业公司主营一到十八岁同庄同学内涉豪华儿童游乐园公宝宝免费玩耍第一盟同庄大世界福利多多快来选购吧, this may lead to bad performance
+2025-06-13 11:44:36: 2025-06-13 11:44:36,860 INFO synthesis text 原价一千五百九十九的自动下滑盖智能锁，现优惠价只需七百九十九。
+2025-06-13 11:44:41: 2025-06-13 11:44:41,605 INFO yield speech len 7.4, rtf 0.64119409870457
+2025-06-13 11:44:41:   0%|          | 0/1 [00:04<?, ?it/s]
+2025-06-13 11:44:41:   0%|          | 0/1 [00:00<?, ?it/s]
+2025-06-13 11:44:41: 2025-06-13 11:44:41,850 INFO synthesis text 原价二千二百九十九的人脸识别远程遥控智能锁，现优惠价只需一千一百九十九。原价一百九十九的美的落地扇。
+2025-06-13 11:44:49: 2025-06-13 11:44:49,035 INFO yield speech len 12.12, rtf 0.5927822967567067
+2025-06-13 11:44:49:   0%|          | 0/1 [00:07<?, ?it/s]
+2025-06-13 11:44:49:   0%|          | 0/1 [00:00<?, ?it/s]
+2025-06-13 11:44:49: 2025-06-13 11:44:49,278 INFO synthesis text 现优惠价只需一百五十九。本店所有产品均可参加以旧换新购买活动：旧燃气灶可以抵扣五十。
+2025-06-13 11:44:55: 2025-06-13 11:44:55,154 INFO yield speech len 9.76, rtf 0.6020071320846433
+2025-06-13 11:44:55:   0%|          | 0/1 [00:06<?, ?it/s]
+2025-06-13 11:44:55:   0%|          | 0/1 [00:00<?, ?it/s]
+2025-06-13 11:44:55: 2025-06-13 11:44:55,397 INFO synthesis text 旧热水器可以抵扣一百，旧油烟机可以抵扣二百，旧机械锁可以抵扣五十，旧智能锁可以抵扣一百。货真价实。
+2025-06-13 11:45:01: 2025-06-13 11:45:01,286 INFO yield speech len 10.64, rtf 0.5534782669597998
+2025-06-13 11:45:01:   0%|          | 0/1 [00:06<?, ?it/s]
+2025-06-13 11:45:01:   0%|          | 0/1 [00:00<?, ?it/s]
+2025-06-13 11:45:01: 2025-06-13 11:45:01,532 INFO synthesis text 所有产品均是原装正品，享受国家三包政策，网上做到的我们一样能做到，网上做不到的我们也一样能做得到。
+2025-06-13 11:45:07: 2025-06-13 11:45:07,736 INFO yield speech len 10.56, rtf 0.5875169779315139
+2025-06-13 11:45:07:   0%|          | 0/1 [00:06<?, ?it/s]
+2025-06-13 11:45:07:   0%|          | 0/1 [00:00<?, ?it/s]
+2025-06-13 11:45:07: 2025-06-13 11:45:07,981 INFO synthesis text 所以您不用怕买贵，更不用担心花冤枉钱，店面就在您的家门口，安装方便，服务快捷，售后更加有保障。
+2025-06-13 11:45:14: 2025-06-13 11:45:14,100 INFO yield speech len 10.04, rtf 0.6094840418295082
+2025-06-13 11:45:14:   0%|          | 0/1 [00:06<?, ?it/s]
+2025-06-13 11:45:14:   0%|          | 0/1 [00:00<?, ?it/s]
+2025-06-13 11:45:14: 2025-06-13 11:45:14,342 INFO synthesis text 让您买得放心，用得更安心！活动地址：湘潭路海悦华府北门都市甜心蛋糕店左边。
+2025-06-13 11:45:20: 2025-06-13 11:45:20,034 INFO yield speech len 9.32, rtf 0.6106558787464583
+2025-06-13 11:45:20:   0%|          | 0/1 [00:05<?, ?it/s]
+2025-06-13 11:45:20: huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+2025-06-13 11:45:20: To disable this warning, you can either:
+2025-06-13 11:45:20: 	- Avoid using `tokenizers` before the fork if possible
+2025-06-13 11:45:20: 	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+2025-06-13 11:47:37: INFO:     Shutting down
+2025-06-13 11:47:37: INFO:     Waiting for application shutdown.
+2025-06-13 11:47:37: INFO:     Application shutdown complete.
+2025-06-13 11:47:37: INFO:     Finished server process [1736142]
+2025-06-13 11:47:44: /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/diffusers/models/lora.py:393: FutureWarning: `LoRACompatibleLinear` is deprecated and will be removed in version 1.0.0. Use of `LoRACompatibleLinear` is deprecated. Please switch to PEFT backend by installing PEFT: `pip install peft`.
+2025-06-13 11:47:44:   deprecate("LoRACompatibleLinear", "1.0.0", deprecation_message)
+2025-06-13 11:47:45: 2025-06-13 11:47:45,787 INFO input frame rate=25
+2025-06-13 11:47:46: Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+2025-06-13 11:47:46: Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+2025-06-13 11:47:46: [0;93m2025-06-13 11:47:46.955484746 [W:onnxruntime:, transformer_memcpy.cc:74 ApplyImpl] 8 Memcpy nodes are added to the graph main_graph for CUDAExecutionProvider. It might have negative impact on performance (including unable to run CUDA graph). Set session_options.log_severity_level=1 to see the detail logs before this message.[m
+2025-06-13 11:47:46: [0;93m2025-06-13 11:47:46.958119419 [W:onnxruntime:, session_state.cc:1166 VerifyEachNodeIsAssignedToAnEp] Some nodes were not assigned to the preferred execution providers which may or may not have an negative impact on performance. e.g. ORT explicitly assigns shape related ops to CPU to improve perf.[m
+2025-06-13 11:47:46: [0;93m2025-06-13 11:47:46.958130881 [W:onnxruntime:, session_state.cc:1168 VerifyEachNodeIsAssignedToAnEp] Rerunning with verbose output on a non-minimal build will show node assignments.[m
+2025-06-13 11:47:47: 2025-06-13 11:47:47,094 WETEXT INFO building fst for zh_normalizer ...
+2025-06-13 11:47:47: 2025-06-13 11:47:47,094 INFO building fst for zh_normalizer ...
+2025-06-13 11:48:08: 2025-06-13 11:48:08,435 WETEXT INFO done
+2025-06-13 11:48:08: 2025-06-13 11:48:08,435 INFO done
+2025-06-13 11:48:08: 2025-06-13 11:48:08,435 WETEXT INFO fst path: /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/zh_tn_tagger.fst
+2025-06-13 11:48:08: 2025-06-13 11:48:08,435 INFO fst path: /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/zh_tn_tagger.fst
+2025-06-13 11:48:08: 2025-06-13 11:48:08,435 WETEXT INFO           /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/zh_tn_verbalizer.fst
+2025-06-13 11:48:08: 2025-06-13 11:48:08,435 INFO           /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/zh_tn_verbalizer.fst
+2025-06-13 11:48:08: 2025-06-13 11:48:08,439 WETEXT INFO found existing fst: /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/en_tn_tagger.fst
+2025-06-13 11:48:08: 2025-06-13 11:48:08,439 INFO found existing fst: /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/en_tn_tagger.fst
+2025-06-13 11:48:08: 2025-06-13 11:48:08,439 WETEXT INFO                     /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/en_tn_verbalizer.fst
+2025-06-13 11:48:08: 2025-06-13 11:48:08,439 INFO                     /root/miniforge3/envs/cosyvoice/lib/python3.9/site-packages/tn/en_tn_verbalizer.fst
+2025-06-13 11:48:08: 2025-06-13 11:48:08,439 WETEXT INFO skip building fst for en_normalizer ...
+2025-06-13 11:48:08: 2025-06-13 11:48:08,439 INFO skip building fst for en_normalizer ...
+2025-06-13 11:48:10: INFO:     Started server process [1737471]
+2025-06-13 11:48:10: INFO:     Waiting for application startup.
+2025-06-13 11:48:10: INFO:     Application startup complete.
+2025-06-13 11:48:10: INFO:     Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)
+2025-06-13 11:48:21:   0%|          | 0/1 [00:00<?, ?it/s]2025-06-13 11:48:21,829 WARNING synthesis text 好消息，好消息，湘潭路海悦华府科恩智能厨卫电器店优惠大酬宾，为了让周边社区的邻居朋友们买到实惠实用。 too short than prompt text 一口沦陷的万红手工冰淇淋来啦!每一勺都有将人精心手作,从选材到成型,全流程,无黑科技添加,零防腐剂,零香精,用纯粹食材还原自然本味。绵密丝滑的口感,安全健康的品质,让你吃得安心买得放心,解锁舌尖上的治愈美味。, this may lead to bad performance
+2025-06-13 11:48:30: 2025-06-13 11:48:30,819 INFO synthesis text 好消息，好消息，湘潭路海悦华府科恩智能厨卫电器店优惠大酬宾，为了让周边社区的邻居朋友们买到实惠实用。
+2025-06-13 11:48:37: 2025-06-13 11:48:37,941 INFO yield speech len 10.0, rtf 0.7122279882431031
+2025-06-13 11:48:37:   0%|          | 0/1 [00:16<?, ?it/s]
+2025-06-13 11:48:37:   0%|          | 0/1 [00:00<?, ?it/s]
+2025-06-13 11:48:37: 2025-06-13 11:48:37,975 WARNING synthesis text 性价比更高的电器智能产品，本店特别推出以下优惠活动：原价七百九十九的燃气灶，现优惠价只需四百九十九。 too short than prompt text 一口沦陷的万红手工冰淇淋来啦!每一勺都有将人精心手作,从选材到成型,全流程,无黑科技添加,零防腐剂,零香精,用纯粹食材还原自然本味。绵密丝滑的口感,安全健康的品质,让你吃得安心买得放心,解锁舌尖上的治愈美味。, this may lead to bad performance
+2025-06-13 11:48:38: 2025-06-13 11:48:38,284 INFO synthesis text 性价比更高的电器智能产品，本店特别推出以下优惠活动：原价七百九十九的燃气灶，现优惠价只需四百九十九。
+2025-06-13 11:48:45: 2025-06-13 11:48:45,102 INFO yield speech len 9.96, rtf 0.6844624458067866
+2025-06-13 11:48:45:   0%|          | 0/1 [00:07<?, ?it/s]
+2025-06-13 11:48:45:   0%|          | 0/1 [00:00<?, ?it/s]
+2025-06-13 11:48:45: 2025-06-13 11:48:45,134 WARNING synthesis text 原价八百九十九的燃气灶，现优惠价只需五百九十九。原价二千零九十九的油烟机。 too short than prompt text 一口沦陷的万红手工冰淇淋来啦!每一勺都有将人精心手作,从选材到成型,全流程,无黑科技添加,零防腐剂,零香精,用纯粹食材还原自然本味。绵密丝滑的口感,安全健康的品质,让你吃得安心买得放心,解锁舌尖上的治愈美味。, this may lead to bad performance
+2025-06-13 11:48:45: 2025-06-13 11:48:45,443 INFO synthesis text 原价八百九十九的燃气灶，现优惠价只需五百九十九。原价二千零九十九的油烟机。
+2025-06-13 11:48:51: 2025-06-13 11:48:51,093 INFO yield speech len 7.52, rtf 0.7512206409839874
+2025-06-13 11:48:51:   0%|          | 0/1 [00:05<?, ?it/s]
+2025-06-13 11:48:51:   0%|          | 0/1 [00:00<?, ?it/s]
+2025-06-13 11:48:51: 2025-06-13 11:48:51,126 WARNING synthesis text 现优惠价只需一千三百九十九。原价一千六百九十九的十二升燃气热水器，现优惠价只需九百九十九。 too short than prompt text 一口沦陷的万红手工冰淇淋来啦!每一勺都有将人精心手作,从选材到成型,全流程,无黑科技添加,零防腐剂,零香精,用纯粹食材还原自然本味。绵密丝滑的口感,安全健康的品质,让你吃得安心买得放心,解锁舌尖上的治愈美味。, this may lead to bad performance
+2025-06-13 11:48:51: 2025-06-13 11:48:51,435 INFO synthesis text 现优惠价只需一千三百九十九。原价一千六百九十九的十二升燃气热水器，现优惠价只需九百九十九。
+2025-06-13 11:48:57: 2025-06-13 11:48:57,765 INFO yield speech len 8.84, rtf 0.716017786733705
+2025-06-13 11:48:57:   0%|          | 0/1 [00:06<?, ?it/s]
+2025-06-13 11:48:57:   0%|          | 0/1 [00:00<?, ?it/s]
+2025-06-13 11:48:57: 2025-06-13 11:48:57,796 WARNING synthesis text 网上卖一千零九十九的德国品牌艾栖智能锁，现优惠价只需五百九十九。 too short than prompt text 一口沦陷的万红手工冰淇淋来啦!每一勺都有将人精心手作,从选材到成型,全流程,无黑科技添加,零防腐剂,零香精,用纯粹食材还原自然本味。绵密丝滑的口感,安全健康的品质,让你吃得安心买得放心,解锁舌尖上的治愈美味。, this may lead to bad performance
+2025-06-13 11:48:58: 2025-06-13 11:48:58,105 INFO synthesis text 网上卖一千零九十九的德国品牌艾栖智能锁，现优惠价只需五百九十九。
+2025-06-13 11:49:02: 2025-06-13 11:49:02,861 INFO yield speech len 6.84, rtf 0.6952305983381661
+2025-06-13 11:49:02:   0%|          | 0/1 [00:05<?, ?it/s]
+2025-06-13 11:49:02:   0%|          | 0/1 [00:00<?, ?it/s]2025-06-13 11:49:02,892 WARNING synthesis text 原价一千五百九十九的自动下滑盖智能锁，现优惠价只需七百九十九。 too short than prompt text 一口沦陷的万红手工冰淇淋来啦!每一勺都有将人精心手作,从选材到成型,全流程,无黑科技添加,零防腐剂,零香精,用纯粹食材还原自然本味。绵密丝滑的口感,安全健康的品质,让你吃得安心买得放心,解锁舌尖上的治愈美味。, this may lead to bad performance
+2025-06-13 11:49:03: 2025-06-13 11:49:03,202 INFO synthesis text 原价一千五百九十九的自动下滑盖智能锁，现优惠价只需七百九十九。
+2025-06-13 11:49:08: 2025-06-13 11:49:08,405 INFO yield speech len 6.8, rtf 0.7652188749874339
+2025-06-13 11:49:08:   0%|          | 0/1 [00:05<?, ?it/s]
+2025-06-13 11:49:08:   0%|          | 0/1 [00:00<?, ?it/s]
+2025-06-13 11:49:08: 2025-06-13 11:49:08,439 WARNING synthesis text 原价二千二百九十九的人脸识别远程遥控智能锁，现优惠价只需一千一百九十九。原价一百九十九的美的落地扇。 too short than prompt text 一口沦陷的万红手工冰淇淋来啦!每一勺都有将人精心手作,从选材到成型,全流程,无黑科技添加,零防腐剂,零香精,用纯粹食材还原自然本味。绵密丝滑的口感,安全健康的品质,让你吃得安心买得放心,解锁舌尖上的治愈美味。, this may lead to bad performance
+2025-06-13 11:49:08: 2025-06-13 11:49:08,748 INFO synthesis text 原价二千二百九十九的人脸识别远程遥控智能锁，现优惠价只需一千一百九十九。原价一百九十九的美的落地扇。
+2025-06-13 11:49:15: 2025-06-13 11:49:15,825 INFO yield speech len 10.16, rtf 0.6965346458390003
+2025-06-13 11:49:15:   0%|          | 0/1 [00:07<?, ?it/s]
+2025-06-13 11:49:15:   0%|          | 0/1 [00:00<?, ?it/s]
+2025-06-13 11:49:15: 2025-06-13 11:49:15,858 WARNING synthesis text 现优惠价只需一百五十九。本店所有产品均可参加以旧换新购买活动：旧燃气灶可以抵扣五十。 too short than prompt text 一口沦陷的万红手工冰淇淋来啦!每一勺都有将人精心手作,从选材到成型,全流程,无黑科技添加,零防腐剂,零香精,用纯粹食材还原自然本味。绵密丝滑的口感,安全健康的品质,让你吃得安心买得放心,解锁舌尖上的治愈美味。, this may lead to bad performance
+2025-06-13 11:49:16: 2025-06-13 11:49:16,169 INFO synthesis text 现优惠价只需一百五十九。本店所有产品均可参加以旧换新购买活动：旧燃气灶可以抵扣五十。
+2025-06-13 11:49:22: 2025-06-13 11:49:22,542 INFO yield speech len 8.96, rtf 0.7113084463136536
+2025-06-13 11:49:22:   0%|          | 0/1 [00:06<?, ?it/s]
+2025-06-13 11:49:22:   0%|          | 0/1 [00:00<?, ?it/s]
+2025-06-13 11:49:22: 2025-06-13 11:49:22,576 WARNING synthesis text 旧热水器可以抵扣一百，旧油烟机可以抵扣二百，旧机械锁可以抵扣五十，旧智能锁可以抵扣一百。货真价实。 too short than prompt text 一口沦陷的万红手工冰淇淋来啦!每一勺都有将人精心手作,从选材到成型,全流程,无黑科技添加,零防腐剂,零香精,用纯粹食材还原自然本味。绵密丝滑的口感,安全健康的品质,让你吃得安心买得放心,解锁舌尖上的治愈美味。, this may lead to bad performance
+2025-06-13 11:49:22: 2025-06-13 11:49:22,886 INFO synthesis text 旧热水器可以抵扣一百，旧油烟机可以抵扣二百，旧机械锁可以抵扣五十，旧智能锁可以抵扣一百。货真价实。
+2025-06-13 11:49:29: 2025-06-13 11:49:29,161 INFO yield speech len 9.88, rtf 0.6351333398085374
+2025-06-13 11:49:29:   0%|          | 0/1 [00:06<?, ?it/s]
+2025-06-13 11:49:29:   0%|          | 0/1 [00:00<?, ?it/s]
+2025-06-13 11:49:29: 2025-06-13 11:49:29,195 WARNING synthesis text 所有产品均是原装正品，享受国家三包政策，网上做到的我们一样能做到，网上做不到的我们也一样能做得到。 too short than prompt text 一口沦陷的万红手工冰淇淋来啦!每一勺都有将人精心手作,从选材到成型,全流程,无黑科技添加,零防腐剂,零香精,用纯粹食材还原自然本味。绵密丝滑的口感,安全健康的品质,让你吃得安心买得放心,解锁舌尖上的治愈美味。, this may lead to bad performance
+2025-06-13 11:49:29: 2025-06-13 11:49:29,504 INFO synthesis text 所有产品均是原装正品，享受国家三包政策，网上做到的我们一样能做到，网上做不到的我们也一样能做得到。
+2025-06-13 11:49:36: 2025-06-13 11:49:36,197 INFO yield speech len 9.52, rtf 0.7029819137909833
+2025-06-13 11:49:36:   0%|          | 0/1 [00:07<?, ?it/s]
+2025-06-13 11:49:36:   0%|          | 0/1 [00:00<?, ?it/s]2025-06-13 11:49:36,230 WARNING synthesis text 所以您不用怕买贵，更不用担心花冤枉钱，店面就在您的家门口，安装方便，服务快捷，售后更加有保障。 too short than prompt text 一口沦陷的万红手工冰淇淋来啦!每一勺都有将人精心手作,从选材到成型,全流程,无黑科技添加,零防腐剂,零香精,用纯粹食材还原自然本味。绵密丝滑的口感,安全健康的品质,让你吃得安心买得放心,解锁舌尖上的治愈美味。, this may lead to bad performance
+2025-06-13 11:49:36: 2025-06-13 11:49:36,541 INFO synthesis text 所以您不用怕买贵，更不用担心花冤枉钱，店面就在您的家门口，安装方便，服务快捷，售后更加有保障。
+2025-06-13 11:49:43: 2025-06-13 11:49:43,046 INFO yield speech len 9.28, rtf 0.7010088912371932
+2025-06-13 11:49:43:   0%|          | 0/1 [00:06<?, ?it/s]
+2025-06-13 11:49:43:   0%|          | 0/1 [00:00<?, ?it/s]
+2025-06-13 11:49:43: 2025-06-13 11:49:43,078 WARNING synthesis text 让您买得放心，用得更安心！活动地址：湘潭路海悦华府北门都市甜心蛋糕店左边。 too short than prompt text 一口沦陷的万红手工冰淇淋来啦!每一勺都有将人精心手作,从选材到成型,全流程,无黑科技添加,零防腐剂,零香精,用纯粹食材还原自然本味。绵密丝滑的口感,安全健康的品质,让你吃得安心买得放心,解锁舌尖上的治愈美味。, this may lead to bad performance
+2025-06-13 11:49:43: 2025-06-13 11:49:43,388 INFO synthesis text 让您买得放心，用得更安心！活动地址：湘潭路海悦华府北门都市甜心蛋糕店左边。
+2025-06-13 11:49:48: 2025-06-13 11:49:48,666 INFO yield speech len 7.8, rtf 0.6766699827634372
+2025-06-13 11:49:48:   0%|          | 0/1 [00:05<?, ?it/s]
+2025-06-13 11:49:48: huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+2025-06-13 11:49:48: To disable this warning, you can either:
+2025-06-13 11:49:48: 	- Avoid using `tokenizers` before the fork if possible
+2025-06-13 11:49:48: 	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+2025-06-13 11:53:45:   0%|          | 0/1 [00:00<?, ?it/s]
+2025-06-13 11:53:54: 2025-06-13 11:53:54,142 INFO synthesis text 好消息，好消息，湘潭路海悦华府科恩智能厨卫电器店优惠大酬宾，为了让周边社区的邻居朋友们买到实惠实用。
+2025-06-13 11:54:00: 2025-06-13 11:54:00,609 INFO yield speech len 10.96, rtf 0.5901208976759528
+2025-06-13 11:54:00:   0%|          | 0/1 [00:14<?, ?it/s]
+2025-06-13 11:54:00:   0%|          | 0/1 [00:00<?, ?it/s]
+2025-06-13 11:54:00: 2025-06-13 11:54:00,846 INFO synthesis text 性价比更高的电器智能产品，本店特别推出以下优惠活动：原价七百九十九的燃气灶，现优惠价只需四百九十九。
+2025-06-13 11:54:07: 2025-06-13 11:54:07,468 INFO yield speech len 11.24, rtf 0.5891609022201593
+2025-06-13 11:54:07:   0%|          | 0/1 [00:06<?, ?it/s]
+2025-06-13 11:54:07:   0%|          | 0/1 [00:00<?, ?it/s]
+2025-06-13 11:54:07: 2025-06-13 11:54:07,703 INFO synthesis text 原价八百九十九的燃气灶，现优惠价只需五百九十九。原价二千零九十九的油烟机。
+2025-06-13 11:54:12: 2025-06-13 11:54:12,939 INFO yield speech len 8.48, rtf 0.6175007741406279
+2025-06-13 11:54:12:   0%|          | 0/1 [00:05<?, ?it/s]
+2025-06-13 11:54:12:   0%|          | 0/1 [00:00<?, ?it/s]
+2025-06-13 11:54:13: 2025-06-13 11:54:13,173 INFO synthesis text 现优惠价只需一千三百九十九。原价一千六百九十九的十二升燃气热水器，现优惠价只需九百九十九。
+2025-06-13 11:54:19: 2025-06-13 11:54:19,681 INFO yield speech len 11.04, rtf 0.5895186593567117
+2025-06-13 11:54:19:   0%|          | 0/1 [00:06<?, ?it/s]
+2025-06-13 11:54:19:   0%|          | 0/1 [00:00<?, ?it/s]
+2025-06-13 11:54:19: 2025-06-13 11:54:19,914 INFO synthesis text 网上卖一千零九十九的德国品牌艾栖智能锁，现优惠价只需五百九十九。
+2025-06-13 11:54:24: 2025-06-13 11:54:24,548 INFO yield speech len 7.6, rtf 0.6097306075849032
+2025-06-13 11:54:24:   0%|          | 0/1 [00:04<?, ?it/s]
+2025-06-13 11:54:24:   0%|          | 0/1 [00:00<?, ?it/s]
+2025-06-13 11:54:24: 2025-06-13 11:54:24,779 INFO synthesis text 原价一千五百九十九的自动下滑盖智能锁，现优惠价只需七百九十九。
+2025-06-13 11:54:29: 2025-06-13 11:54:29,664 INFO yield speech len 7.76, rtf 0.6294682468335653
+2025-06-13 11:54:29:   0%|          | 0/1 [00:05<?, ?it/s]
+2025-06-13 11:54:29:   0%|          | 0/1 [00:00<?, ?it/s]
+2025-06-13 11:54:29: 2025-06-13 11:54:29,898 INFO synthesis text 原价二千二百九十九的人脸识别远程遥控智能锁，现优惠价只需一千一百九十九。原价一百九十九的美的落地扇。
+2025-06-13 11:54:36: 2025-06-13 11:54:36,805 INFO yield speech len 12.6, rtf 0.548153661546253
+2025-06-13 11:54:36:   0%|          | 0/1 [00:07<?, ?it/s]
+2025-06-13 11:54:36:   0%|          | 0/1 [00:00<?, ?it/s]
+2025-06-13 11:54:37: 2025-06-13 11:54:37,039 INFO synthesis text 现优惠价只需一百五十九。本店所有产品均可参加以旧换新购买活动：旧燃气灶可以抵扣五十。
+2025-06-13 11:54:42: 2025-06-13 11:54:42,381 INFO yield speech len 8.68, rtf 0.6155027497199274
+2025-06-13 11:54:42:   0%|          | 0/1 [00:05<?, ?it/s]
+2025-06-13 11:54:42:   0%|          | 0/1 [00:00<?, ?it/s]
+2025-06-13 11:54:42: 2025-06-13 11:54:42,616 INFO synthesis text 旧热水器可以抵扣一百，旧油烟机可以抵扣二百，旧机械锁可以抵扣五十，旧智能锁可以抵扣一百。货真价实。
+2025-06-13 11:54:48: 2025-06-13 11:54:48,496 INFO yield speech len 10.52, rtf 0.5590088013913695
+2025-06-13 11:54:48:   0%|          | 0/1 [00:06<?, ?it/s]
+2025-06-13 11:54:48:   0%|          | 0/1 [00:00<?, ?it/s]
+2025-06-13 11:54:48: 2025-06-13 11:54:48,731 INFO synthesis text 所有产品均是原装正品，享受国家三包政策，网上做到的我们一样能做到，网上做不到的我们也一样能做得到。
+2025-06-13 11:54:55: 2025-06-13 11:54:55,666 INFO yield speech len 11.88, rtf 0.5836996767255994
+2025-06-13 11:54:55:   0%|          | 0/1 [00:07<?, ?it/s]
+2025-06-13 11:54:55:   0%|          | 0/1 [00:00<?, ?it/s]
+2025-06-13 11:54:55: 2025-06-13 11:54:55,900 INFO synthesis text 所以您不用怕买贵，更不用担心花冤枉钱，店面就在您的家门口，安装方便，服务快捷，售后更加有保障。
+2025-06-13 11:55:01: 2025-06-13 11:55:01,905 INFO yield speech len 10.16, rtf 0.5910107939262089
+2025-06-13 11:55:01:   0%|          | 0/1 [00:06<?, ?it/s]
+2025-06-13 11:55:01:   0%|          | 0/1 [00:00<?, ?it/s]
+2025-06-13 11:55:02: 2025-06-13 11:55:02,139 INFO synthesis text 让您买得放心，用得更安心！活动地址：湘潭路海悦华府北门都市甜心蛋糕店左边。
+2025-06-13 11:55:07: 2025-06-13 11:55:07,357 INFO yield speech len 8.48, rtf 0.6152249732107486
+2025-06-13 11:55:07:   0%|          | 0/1 [00:05<?, ?it/s]
+2025-06-13 11:55:07: huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+2025-06-13 11:55:07: To disable this warning, you can either:
+2025-06-13 11:55:07: 	- Avoid using `tokenizers` before the fork if possible
+2025-06-13 11:55:07: 	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
